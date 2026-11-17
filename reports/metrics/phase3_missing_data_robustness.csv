@@ -1,0 +1,31 @@
+scenario,checkpoint_type,applicable_sample_count,mae_hours,rmse_hours,conformal_coverage,mean_interval_width_hours,degradation_vs_complete_mae_hours,status
+original_complete,departure,45,18.509549113609783,25.605101661282752,0.9777777777777777,109.30420818865849,0.0,reference
+random_masking_model_complete,departure,45,18.519001764196158,25.744938786911103,0.9777777777777777,108.7011530942994,0.0,evaluated
+original_complete,port_arrival,45,12.00302144286006,15.026001573772344,1.0,83.31865918873645,0.0,reference
+random_masking_model_complete,port_arrival,45,11.847890556449043,14.85613124321491,0.9777777777777777,76.72577077516394,0.0,evaluated
+original_complete,customs_cleared,45,6.295665698842145,7.690876101041379,0.9555555555555556,37.26529879366968,0.0,reference
+random_masking_model_complete,customs_cleared,45,6.213239623210323,7.611402217485387,0.9111111111111111,34.566274520831094,0.0,evaluated
+original_model_masked:missing_intermediate_timestamp,departure,0,,,,,,not applicable
+random_masking_model_masked:missing_intermediate_timestamp,departure,0,,,,,,not applicable
+original_model_masked:missing_intermediate_timestamp,port_arrival,45,11.921628575929194,14.962504045258035,1.0,83.31865918873645,-0.08139286693086589,evaluated
+random_masking_model_masked:missing_intermediate_timestamp,port_arrival,45,11.719958231234667,14.729519060757152,0.9777777777777777,76.72577077516394,-0.1279323252143758,evaluated
+original_model_masked:missing_intermediate_timestamp,customs_cleared,45,6.295665698842145,7.690876101041379,0.9555555555555556,37.26529879366968,0.0,evaluated
+random_masking_model_masked:missing_intermediate_timestamp,customs_cleared,45,6.213239623210323,7.611402217485387,0.9111111111111111,34.566274520831094,0.0,evaluated
+original_model_masked:missing_port_observation,departure,0,,,,,,not applicable
+random_masking_model_masked:missing_port_observation,departure,0,,,,,,not applicable
+original_model_masked:missing_port_observation,port_arrival,45,12.122164858616317,14.977598214225369,1.0,82.86593167940752,0.1191434157562572,evaluated
+random_masking_model_masked:missing_port_observation,port_arrival,45,11.912067029919724,14.814960987810684,0.9777777777777777,76.72577077517724,0.06417647347068112,evaluated
+original_model_masked:missing_port_observation,customs_cleared,45,6.400870617409793,7.8239416264034505,0.8666666666666667,34.45068063289689,0.10520491856764824,evaluated
+random_masking_model_masked:missing_port_observation,customs_cleared,45,6.380290753177273,7.74220363206257,0.8444444444444444,33.00115921710949,0.16705112996694993,evaluated
+original_model_masked:partial_customs_information,departure,0,,,,,,not applicable
+random_masking_model_masked:partial_customs_information,departure,0,,,,,,not applicable
+original_model_masked:partial_customs_information,port_arrival,0,,,,,,not applicable
+random_masking_model_masked:partial_customs_information,port_arrival,0,,,,,,not applicable
+original_model_masked:partial_customs_information,customs_cleared,45,6.295665698842145,7.690876101041379,0.9555555555555556,37.26529879366968,0.0,evaluated
+random_masking_model_masked:partial_customs_information,customs_cleared,45,6.213239623210323,7.611402217485387,0.9111111111111111,34.566274520831094,0.0,evaluated
+original_model_masked:multiple_missing_inputs,departure,0,,,,,,not applicable
+random_masking_model_masked:multiple_missing_inputs,departure,0,,,,,,not applicable
+original_model_masked:multiple_missing_inputs,port_arrival,45,12.068580655725608,14.922182400300265,1.0,82.86593167940752,0.06555921286554778,evaluated
+random_masking_model_masked:multiple_missing_inputs,port_arrival,45,11.784134704705348,14.687993917344006,0.9777777777777777,76.72577077517724,-0.06375585174369469,evaluated
+original_model_masked:multiple_missing_inputs,customs_cleared,45,6.593807606099571,7.971051515173139,0.8666666666666667,34.45068063289689,0.29814190725742673,evaluated
+random_masking_model_masked:multiple_missing_inputs,customs_cleared,45,6.430122931671896,7.781586204037615,0.8444444444444444,33.00115921710949,0.2168833084615729,evaluated

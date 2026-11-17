@@ -1,0 +1,541 @@
+shipment_id,checkpoint,component,forecast_used,forecast_issue_time,forecast_valid_time,forecast_location,original_forecast_value,neutral_reference_value,original_propagation_remaining,neutralized_propagation_remaining,effect_hours,unavailable_reason,forecast_requested_at
+SHP-0002,departure,port_congestion,False,,,Mundra (synthetic profile),,0.5,120.65833333333333,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-04 00:00:00+00:00
+SHP-0002,departure,port_weather,False,,,,,0.0,120.65833333333333,,,unsupported_not_consumed_by_propagation,
+SHP-0002,departure,customs_workload,False,,,Mundra (synthetic profile),,0.5,120.65833333333333,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-04 14:00:00+00:00
+SHP-0002,departure,inland_traffic,False,,,inland_b,,0.5,120.65833333333333,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-05 12:00:00+00:00
+SHP-0002,port_arrival,port_congestion,False,,,Mundra (synthetic profile),,0.5,39.420577923381096,,,no_eligible_forecast; propagation_used_observation,2025-02-04 08:00:00+00:00
+SHP-0002,port_arrival,port_weather,False,,,,,0.0,39.420577923381096,,,unsupported_not_consumed_by_propagation,
+SHP-0002,port_arrival,customs_workload,False,,,Mundra (synthetic profile),,0.5,39.420577923381096,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-04 19:00:00+00:00
+SHP-0002,port_arrival,inland_traffic,False,,,inland_b,,0.5,39.420577923381096,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-05 17:00:00+00:00
+SHP-0002,customs_cleared,port_congestion,False,,,,,0.5,44.59456225055996,,,unsupported_not_consumed_by_propagation,
+SHP-0002,customs_cleared,port_weather,False,,,,,0.0,44.59456225055996,,,unsupported_not_consumed_by_propagation,
+SHP-0002,customs_cleared,customs_workload,False,,,,,0.5,44.59456225055996,,,unsupported_not_consumed_by_propagation,
+SHP-0002,customs_cleared,inland_traffic,True,2025-02-04 20:24:19.575898+00:00,2025-02-05 18:24:19.575898+00:00,inland_b,0.6085988925765592,0.5,44.59456225055996,44.594562250555555,4.405364961712621e-12,,2025-02-05 18:24:19.575898+00:00
+SHP-0005,departure,port_congestion,False,,,Mundra (synthetic profile),,0.5,135.25833333333333,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-14 16:00:00+00:00
+SHP-0005,departure,port_weather,False,,,,,0.0,135.25833333333333,,,unsupported_not_consumed_by_propagation,
+SHP-0005,departure,customs_workload,False,,,Mundra (synthetic profile),,0.5,135.25833333333333,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-15 14:00:00+00:00
+SHP-0005,departure,inland_traffic,False,,,inland_b,,0.5,135.25833333333333,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-16 12:00:00+00:00
+SHP-0005,port_arrival,port_congestion,False,,,Mundra (synthetic profile),,0.5,50.792245636263814,,,no_eligible_forecast; propagation_used_observation,2025-01-14 16:00:00+00:00
+SHP-0005,port_arrival,port_weather,False,,,,,0.0,50.792245636263814,,,unsupported_not_consumed_by_propagation,
+SHP-0005,port_arrival,customs_workload,False,,,Mundra (synthetic profile),,0.5,50.792245636263814,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-15 14:00:00+00:00
+SHP-0005,port_arrival,inland_traffic,False,,,inland_b,,0.5,50.792245636263814,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-16 12:00:00+00:00
+SHP-0005,customs_cleared,port_congestion,False,,,,,0.5,21.033510534395628,,,unsupported_not_consumed_by_propagation,
+SHP-0005,customs_cleared,port_weather,False,,,,,0.0,21.033510534395628,,,unsupported_not_consumed_by_propagation,
+SHP-0005,customs_cleared,customs_workload,False,,,,,0.5,21.033510534395628,,,unsupported_not_consumed_by_propagation,
+SHP-0005,customs_cleared,inland_traffic,True,2025-01-15 15:12:55.921955+00:00,2025-01-16 13:12:55.921955+00:00,inland_b,0.32427464261738703,0.5,21.033510534395628,22.0,-0.9664894656043721,,2025-01-16 13:12:55.921955+00:00
+SHP-0009,departure,port_congestion,False,,,Synthetic Port C,,0.5,215.1,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-08 12:00:00+00:00
+SHP-0009,departure,port_weather,False,,,,,0.0,215.1,,,unsupported_not_consumed_by_propagation,
+SHP-0009,departure,customs_workload,False,,,Synthetic Port C,,0.5,215.1,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-10 19:00:00+00:00
+SHP-0009,departure,inland_traffic,False,,,inland_c,,0.5,215.1,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-11 21:00:00+00:00
+SHP-0009,port_arrival,port_congestion,False,,,Synthetic Port C,,0.5,111.15707507444445,,,no_eligible_forecast; propagation_used_observation,2025-02-09 00:00:00+00:00
+SHP-0009,port_arrival,port_weather,False,,,,,0.0,111.15707507444445,,,unsupported_not_consumed_by_propagation,
+SHP-0009,port_arrival,customs_workload,False,,,Synthetic Port C,,0.5,111.15707507444445,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-10 19:00:00+00:00
+SHP-0009,port_arrival,inland_traffic,False,,,inland_c,,0.5,111.15707507444445,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-11 21:00:00+00:00
+SHP-0009,customs_cleared,port_congestion,False,,,,,0.5,41.55562322215941,,,unsupported_not_consumed_by_propagation,
+SHP-0009,customs_cleared,port_weather,False,,,,,0.0,41.55562322215941,,,unsupported_not_consumed_by_propagation,
+SHP-0009,customs_cleared,customs_workload,False,,,,,0.5,41.55562322215941,,,unsupported_not_consumed_by_propagation,
+SHP-0009,customs_cleared,inland_traffic,True,2025-02-11 21:26:39.756400+00:00,2025-02-12 23:26:39.756400+00:00,inland_c,0.5321352900330716,0.5,41.55562322215941,41.55562322222222,-6.281197784119286e-11,,2025-02-12 23:26:39.756400+00:00
+SHP-0010,departure,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,154.175,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-09 00:00:00+00:00
+SHP-0010,departure,port_weather,False,,,,,0.0,154.175,,,unsupported_not_consumed_by_propagation,
+SHP-0010,departure,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,154.175,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-10 16:00:00+00:00
+SHP-0010,departure,inland_traffic,False,,,inland_a,,0.5,154.175,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-11 10:00:00+00:00
+SHP-0010,port_arrival,port_congestion,True,2025-02-08 20:08:09.736737+00:00,2025-02-09 00:08:09.736737+00:00,Nhava Sheva (synthetic profile),0.527709718987978,0.5,61.638962017420404,61.6389620175,-7.959499725984642e-11,,2025-02-09 00:00:00+00:00
+SHP-0010,port_arrival,port_weather,False,,,,,0.0,61.638962017420404,,,unsupported_not_consumed_by_propagation,
+SHP-0010,port_arrival,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,61.638962017420404,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-10 16:00:00+00:00
+SHP-0010,port_arrival,inland_traffic,False,,,inland_a,,0.5,61.638962017420404,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-11 10:00:00+00:00
+SHP-0010,customs_cleared,port_congestion,False,,,,,0.5,17.914782778110997,,,unsupported_not_consumed_by_propagation,
+SHP-0010,customs_cleared,port_weather,False,,,,,0.0,17.914782778110997,,,unsupported_not_consumed_by_propagation,
+SHP-0010,customs_cleared,customs_workload,False,,,,,0.5,17.914782778110997,,,unsupported_not_consumed_by_propagation,
+SHP-0010,customs_cleared,inland_traffic,True,2025-02-10 17:59:13.432973+00:00,2025-02-11 11:59:13.432973+00:00,inland_a,0.48106283958022134,0.5,17.914782778110997,18.0,-0.08521722188900327,,2025-02-11 11:59:13.432973+00:00
+SHP-0015,departure,port_congestion,False,,,Synthetic Port C,,0.5,151.875,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-10 12:00:00+00:00
+SHP-0015,departure,port_weather,False,,,,,0.0,151.875,,,unsupported_not_consumed_by_propagation,
+SHP-0015,departure,customs_workload,False,,,Synthetic Port C,,0.5,151.875,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-11 02:00:00+00:00
+SHP-0015,departure,inland_traffic,False,,,inland_c,,0.5,151.875,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-12 04:00:00+00:00
+SHP-0015,port_arrival,port_congestion,False,,,Synthetic Port C,,0.5,106.26431533611111,,,no_eligible_forecast; propagation_used_observation,2025-02-12 00:00:00+00:00
+SHP-0015,port_arrival,port_weather,False,,,,,0.0,106.26431533611111,,,unsupported_not_consumed_by_propagation,
+SHP-0015,port_arrival,customs_workload,False,,,Synthetic Port C,,0.5,106.26431533611111,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-12 19:00:00+00:00
+SHP-0015,port_arrival,inland_traffic,False,,,inland_c,,0.5,106.26431533611111,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-13 21:00:00+00:00
+SHP-0015,customs_cleared,port_congestion,False,,,,,0.5,25.8754299462047,,,unsupported_not_consumed_by_propagation,
+SHP-0015,customs_cleared,port_weather,False,,,,,0.0,25.8754299462047,,,unsupported_not_consumed_by_propagation,
+SHP-0015,customs_cleared,customs_workload,False,,,,,0.5,25.8754299462047,,,unsupported_not_consumed_by_propagation,
+SHP-0015,customs_cleared,inland_traffic,True,2025-02-15 03:59:42.565780+00:00,2025-02-16 05:59:42.565780+00:00,inland_c,0.4808353763391847,0.5,25.8754299462047,26.0,-0.12457005379529917,,2025-02-16 05:59:42.565780+00:00
+SHP-0019,departure,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,131.49166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-09 00:00:00+00:00
+SHP-0019,departure,port_weather,False,,,,,0.0,131.49166666666667,,,unsupported_not_consumed_by_propagation,
+SHP-0019,departure,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,131.49166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-09 16:00:00+00:00
+SHP-0019,departure,inland_traffic,False,,,inland_a,,0.5,131.49166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-10 10:00:00+00:00
+SHP-0019,port_arrival,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,61.329282847500004,,,no_eligible_forecast; propagation_used_observation,2025-01-09 12:00:00+00:00
+SHP-0019,port_arrival,port_weather,False,,,,,0.0,61.329282847500004,,,unsupported_not_consumed_by_propagation,
+SHP-0019,port_arrival,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,61.329282847500004,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-10 00:00:00+00:00
+SHP-0019,port_arrival,inland_traffic,False,,,inland_a,,0.5,61.329282847500004,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-10 18:00:00+00:00
+SHP-0019,customs_cleared,port_congestion,False,,,,,0.5,38.122107457350985,,,unsupported_not_consumed_by_propagation,
+SHP-0019,customs_cleared,port_weather,False,,,,,0.0,38.122107457350985,,,unsupported_not_consumed_by_propagation,
+SHP-0019,customs_cleared,customs_workload,False,,,,,0.5,38.122107457350985,,,unsupported_not_consumed_by_propagation,
+SHP-0019,customs_cleared,inland_traffic,True,2025-01-10 01:52:40.413154+00:00,2025-01-10 19:52:40.413154+00:00,inland_a,0.44556304453478657,0.5,38.122107457350985,38.12210745722223,1.2875744914708775e-10,,2025-01-10 19:52:40.413154+00:00
+SHP-0022,departure,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,132.40833333333333,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-06 00:00:00+00:00
+SHP-0022,departure,port_weather,False,,,,,0.0,132.40833333333333,,,unsupported_not_consumed_by_propagation,
+SHP-0022,departure,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,132.40833333333333,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-06 16:00:00+00:00
+SHP-0022,departure,inland_traffic,False,,,inland_a,,0.5,132.40833333333333,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-07 10:00:00+00:00
+SHP-0022,port_arrival,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,58.777103950445834,,,no_eligible_forecast; propagation_used_observation,2025-02-06 12:00:00+00:00
+SHP-0022,port_arrival,port_weather,False,,,,,0.0,58.777103950445834,,,unsupported_not_consumed_by_propagation,
+SHP-0022,port_arrival,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,58.777103950445834,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-07 00:00:00+00:00
+SHP-0022,port_arrival,inland_traffic,False,,,inland_a,,0.5,58.777103950445834,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-07 18:00:00+00:00
+SHP-0022,customs_cleared,port_congestion,False,,,,,0.5,38.16494881456039,,,unsupported_not_consumed_by_propagation,
+SHP-0022,customs_cleared,port_weather,False,,,,,0.0,38.16494881456039,,,unsupported_not_consumed_by_propagation,
+SHP-0022,customs_cleared,customs_workload,False,,,,,0.5,38.16494881456039,,,unsupported_not_consumed_by_propagation,
+SHP-0022,customs_cleared,inland_traffic,True,2025-02-07 01:50:06.184268+00:00,2025-02-07 19:50:06.184268+00:00,inland_a,0.5357337189763828,0.5,38.16494881456039,38.16494881444444,1.1594636362133315e-10,,2025-02-07 19:50:06.184268+00:00
+SHP-0038,departure,port_congestion,False,,,Mundra (synthetic profile),,0.5,128.09166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-29 16:00:00+00:00
+SHP-0038,departure,port_weather,False,,,,,0.0,128.09166666666667,,,unsupported_not_consumed_by_propagation,
+SHP-0038,departure,customs_workload,False,,,Mundra (synthetic profile),,0.5,128.09166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-30 14:00:00+00:00
+SHP-0038,departure,inland_traffic,False,,,inland_b,,0.5,128.09166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-31 12:00:00+00:00
+SHP-0038,port_arrival,port_congestion,False,,,Mundra (synthetic profile),,0.5,40.346401835553785,,,no_eligible_forecast; propagation_used_observation,2025-01-30 00:00:00+00:00
+SHP-0038,port_arrival,port_weather,False,,,,,0.0,40.346401835553785,,,unsupported_not_consumed_by_propagation,
+SHP-0038,port_arrival,customs_workload,False,,,Mundra (synthetic profile),,0.5,40.346401835553785,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-30 14:00:00+00:00
+SHP-0038,port_arrival,inland_traffic,False,,,inland_b,,0.5,40.346401835553785,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-31 12:00:00+00:00
+SHP-0038,customs_cleared,port_congestion,False,,,,,0.5,21.091069478395507,,,unsupported_not_consumed_by_propagation,
+SHP-0038,customs_cleared,port_weather,False,,,,,0.0,21.091069478395507,,,unsupported_not_consumed_by_propagation,
+SHP-0038,customs_cleared,customs_workload,False,,,,,0.5,21.091069478395507,,,unsupported_not_consumed_by_propagation,
+SHP-0038,customs_cleared,inland_traffic,True,2025-01-30 15:25:50.227998+00:00,2025-01-31 13:25:50.227998+00:00,inland_b,0.3347399051628194,0.5,21.091069478395507,22.0,-0.9089305216044927,,2025-01-31 13:25:50.227998+00:00
+SHP-0051,departure,port_congestion,False,,,Synthetic Port C,,0.5,150.325,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-09 12:00:00+00:00
+SHP-0051,departure,port_weather,False,,,,,0.0,150.325,,,unsupported_not_consumed_by_propagation,
+SHP-0051,departure,customs_workload,False,,,Synthetic Port C,,0.5,150.325,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-10 02:00:00+00:00
+SHP-0051,departure,inland_traffic,False,,,inland_c,,0.5,150.325,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-11 04:00:00+00:00
+SHP-0051,port_arrival,port_congestion,False,,,Synthetic Port C,,0.5,49.21507228490433,,,no_eligible_forecast; propagation_used_observation,2025-01-09 12:00:00+00:00
+SHP-0051,port_arrival,port_weather,False,,,,,0.0,49.21507228490433,,,unsupported_not_consumed_by_propagation,
+SHP-0051,port_arrival,customs_workload,False,,,Synthetic Port C,,0.5,49.21507228490433,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-10 02:00:00+00:00
+SHP-0051,port_arrival,inland_traffic,False,,,inland_c,,0.5,49.21507228490433,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-11 04:00:00+00:00
+SHP-0051,customs_cleared,port_congestion,False,,,,,0.5,26.416389591823016,,,unsupported_not_consumed_by_propagation,
+SHP-0051,customs_cleared,port_weather,False,,,,,0.0,26.416389591823016,,,unsupported_not_consumed_by_propagation,
+SHP-0051,customs_cleared,customs_workload,False,,,,,0.5,26.416389591823016,,,unsupported_not_consumed_by_propagation,
+SHP-0051,customs_cleared,inland_traffic,True,2025-01-10 03:50:50.432786+00:00,2025-01-11 05:50:50.432786+00:00,inland_c,0.5640599372035409,0.5,26.416389591823016,26.0,0.41638959182301605,,2025-01-11 05:50:50.432786+00:00
+SHP-0057,departure,port_congestion,False,,,Synthetic Port C,,0.5,176.51666666666668,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-16 00:00:00+00:00
+SHP-0057,departure,port_weather,False,,,,,0.0,176.51666666666668,,,unsupported_not_consumed_by_propagation,
+SHP-0057,departure,customs_workload,False,,,Synthetic Port C,,0.5,176.51666666666668,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-16 19:00:00+00:00
+SHP-0057,departure,inland_traffic,False,,,inland_c,,0.5,176.51666666666668,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-17 21:00:00+00:00
+SHP-0057,port_arrival,port_congestion,False,,,Synthetic Port C,,0.5,91.69410777583333,,,no_eligible_forecast; propagation_used_observation,2025-01-17 00:00:00+00:00
+SHP-0057,port_arrival,port_weather,False,,,,,0.0,91.69410777583333,,,unsupported_not_consumed_by_propagation,
+SHP-0057,port_arrival,customs_workload,False,,,Synthetic Port C,,0.5,91.69410777583333,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-17 19:00:00+00:00
+SHP-0057,port_arrival,inland_traffic,False,,,inland_c,,0.5,91.69410777583333,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-18 21:00:00+00:00
+SHP-0057,customs_cleared,port_congestion,False,,,,,0.5,41.49787284468833,,,unsupported_not_consumed_by_propagation,
+SHP-0057,customs_cleared,port_weather,False,,,,,0.0,41.49787284468833,,,unsupported_not_consumed_by_propagation,
+SHP-0057,customs_cleared,customs_workload,False,,,,,0.5,41.49787284468833,,,unsupported_not_consumed_by_propagation,
+SHP-0057,customs_cleared,inland_traffic,True,2025-01-20 21:30:07.657759+00:00,2025-01-21 23:30:07.657759+00:00,inland_c,0.4640302793964959,0.5,41.49787284468833,41.497872844722224,-3.389288849575678e-11,,2025-01-21 23:30:07.657759+00:00
+SHP-0058,departure,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,133.275,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-30 00:00:00+00:00
+SHP-0058,departure,port_weather,False,,,,,0.0,133.275,,,unsupported_not_consumed_by_propagation,
+SHP-0058,departure,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,133.275,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-30 16:00:00+00:00
+SHP-0058,departure,inland_traffic,False,,,inland_a,,0.5,133.275,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-31 10:00:00+00:00
+SHP-0058,port_arrival,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,63.34093463833334,,,no_eligible_forecast; propagation_used_observation,2025-01-30 12:00:00+00:00
+SHP-0058,port_arrival,port_weather,False,,,,,0.0,63.34093463833334,,,unsupported_not_consumed_by_propagation,
+SHP-0058,port_arrival,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,63.34093463833334,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-31 00:00:00+00:00
+SHP-0058,port_arrival,inland_traffic,False,,,inland_a,,0.5,63.34093463833334,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-31 18:00:00+00:00
+SHP-0058,customs_cleared,port_congestion,False,,,,,0.5,17.539485658519173,,,unsupported_not_consumed_by_propagation,
+SHP-0058,customs_cleared,port_weather,False,,,,,0.0,17.539485658519173,,,unsupported_not_consumed_by_propagation,
+SHP-0058,customs_cleared,customs_workload,False,,,,,0.5,17.539485658519173,,,unsupported_not_consumed_by_propagation,
+SHP-0058,customs_cleared,inland_traffic,True,2025-01-31 17:16:20.750151+00:00,2025-02-01 11:16:20.750151+00:00,inland_a,0.3976634796709271,0.5,17.539485658519173,18.0,-0.4605143414808275,,2025-02-01 11:16:20.750151+00:00
+SHP-0060,departure,port_congestion,False,,,Synthetic Port C,,0.5,158.875,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-04 12:00:00+00:00
+SHP-0060,departure,port_weather,False,,,,,0.0,158.875,,,unsupported_not_consumed_by_propagation,
+SHP-0060,departure,customs_workload,False,,,Synthetic Port C,,0.5,158.875,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-05 02:00:00+00:00
+SHP-0060,departure,inland_traffic,False,,,inland_c,,0.5,158.875,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-06 04:00:00+00:00
+SHP-0060,port_arrival,port_congestion,False,,,Synthetic Port C,,0.5,68.41814310111111,,,no_eligible_forecast; propagation_used_observation,2025-02-05 12:00:00+00:00
+SHP-0060,port_arrival,port_weather,False,,,,,0.0,68.41814310111111,,,unsupported_not_consumed_by_propagation,
+SHP-0060,port_arrival,customs_workload,False,,,Synthetic Port C,,0.5,68.41814310111111,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-06 02:00:00+00:00
+SHP-0060,port_arrival,inland_traffic,False,,,inland_c,,0.5,68.41814310111111,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-07 04:00:00+00:00
+SHP-0060,customs_cleared,port_congestion,False,,,,,0.5,26.290977359525726,,,unsupported_not_consumed_by_propagation,
+SHP-0060,customs_cleared,port_weather,False,,,,,0.0,26.290977359525726,,,unsupported_not_consumed_by_propagation,
+SHP-0060,customs_cleared,customs_workload,False,,,,,0.5,26.290977359525726,,,unsupported_not_consumed_by_propagation,
+SHP-0060,customs_cleared,inland_traffic,True,2025-02-08 03:26:58.656245+00:00,2025-02-09 05:26:58.656245+00:00,inland_c,0.5447657476193419,0.5,26.290977359525726,26.0,0.29097735952572634,,2025-02-09 05:26:58.656245+00:00
+SHP-0061,departure,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,188.59166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-08 00:00:00+00:00
+SHP-0061,departure,port_weather,False,,,,,0.0,188.59166666666667,,,unsupported_not_consumed_by_propagation,
+SHP-0061,departure,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,188.59166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-10 16:00:00+00:00
+SHP-0061,departure,inland_traffic,False,,,inland_a,,0.5,188.59166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-11 10:00:00+00:00
+SHP-0061,port_arrival,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,54.42790664129545,,,no_eligible_forecast; propagation_used_observation,2025-02-07 12:00:00+00:00
+SHP-0061,port_arrival,port_weather,False,,,,,0.0,54.42790664129545,,,unsupported_not_consumed_by_propagation,
+SHP-0061,port_arrival,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,54.42790664129545,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-08 00:00:00+00:00
+SHP-0061,port_arrival,inland_traffic,False,,,inland_a,,0.5,54.42790664129545,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-08 18:00:00+00:00
+SHP-0061,customs_cleared,port_congestion,False,,,,,0.5,38.47325483516808,,,unsupported_not_consumed_by_propagation,
+SHP-0061,customs_cleared,port_weather,False,,,,,0.0,38.47325483516808,,,unsupported_not_consumed_by_propagation,
+SHP-0061,customs_cleared,customs_workload,False,,,,,0.5,38.47325483516808,,,unsupported_not_consumed_by_propagation,
+SHP-0061,customs_cleared,inland_traffic,True,2025-02-08 01:31:36.282593+00:00,2025-02-08 19:31:36.282593+00:00,inland_a,0.42470605503735,0.5,38.47325483516808,38.47325483527778,-1.0970069297400187e-10,,2025-02-08 19:31:36.282593+00:00
+SHP-0062,departure,port_congestion,False,,,Mundra (synthetic profile),,0.5,141.675,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-02 08:00:00+00:00
+SHP-0062,departure,port_weather,False,,,,,0.0,141.675,,,unsupported_not_consumed_by_propagation,
+SHP-0062,departure,customs_workload,False,,,Mundra (synthetic profile),,0.5,141.675,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-03 14:00:00+00:00
+SHP-0062,departure,inland_traffic,False,,,inland_b,,0.5,141.675,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-04 12:00:00+00:00
+SHP-0062,port_arrival,port_congestion,False,,,Mundra (synthetic profile),,0.5,56.30916867166667,,,no_eligible_forecast; propagation_used_observation,2025-02-02 08:00:00+00:00
+SHP-0062,port_arrival,port_weather,False,,,,,0.0,56.30916867166667,,,unsupported_not_consumed_by_propagation,
+SHP-0062,port_arrival,customs_workload,False,,,Mundra (synthetic profile),,0.5,56.30916867166667,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-03 14:00:00+00:00
+SHP-0062,port_arrival,inland_traffic,False,,,inland_b,,0.5,56.30916867166667,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-04 12:00:00+00:00
+SHP-0062,customs_cleared,port_congestion,False,,,,,0.5,21.261582714788297,,,unsupported_not_consumed_by_propagation,
+SHP-0062,customs_cleared,port_weather,False,,,,,0.0,21.261582714788297,,,unsupported_not_consumed_by_propagation,
+SHP-0062,customs_cleared,customs_workload,False,,,,,0.5,21.261582714788297,,,unsupported_not_consumed_by_propagation,
+SHP-0062,customs_cleared,inland_traffic,True,2025-02-03 15:22:18.290853+00:00,2025-02-04 13:22:18.290853+00:00,inland_b,0.36574231177968997,0.5,21.261582714788297,22.0,-0.7384172852117032,,2025-02-04 13:22:18.290853+00:00
+SHP-0063,departure,port_congestion,False,,,Synthetic Port C,,0.5,189.85,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-09 12:00:00+00:00
+SHP-0063,departure,port_weather,False,,,,,0.0,189.85,,,unsupported_not_consumed_by_propagation,
+SHP-0063,departure,customs_workload,False,,,Synthetic Port C,,0.5,189.85,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-10 19:00:00+00:00
+SHP-0063,departure,inland_traffic,False,,,inland_c,,0.5,189.85,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-11 21:00:00+00:00
+SHP-0063,port_arrival,port_congestion,False,,,Synthetic Port C,,0.5,103.55509528777777,,,no_eligible_forecast; propagation_used_observation,2025-02-11 00:00:00+00:00
+SHP-0063,port_arrival,port_weather,False,,,,,0.0,103.55509528777777,,,unsupported_not_consumed_by_propagation,
+SHP-0063,port_arrival,customs_workload,False,,,Synthetic Port C,,0.5,103.55509528777777,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-11 19:00:00+00:00
+SHP-0063,port_arrival,inland_traffic,False,,,inland_c,,0.5,103.55509528777777,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-12 21:00:00+00:00
+SHP-0063,customs_cleared,port_congestion,False,,,,,0.5,41.73113063189604,,,unsupported_not_consumed_by_propagation,
+SHP-0063,customs_cleared,port_weather,False,,,,,0.0,41.73113063189604,,,unsupported_not_consumed_by_propagation,
+SHP-0063,customs_cleared,customs_workload,False,,,,,0.5,41.73113063189604,,,unsupported_not_consumed_by_propagation,
+SHP-0063,customs_cleared,inland_traffic,True,2025-02-14 21:16:07.929725+00:00,2025-02-15 23:16:07.929725+00:00,inland_c,0.4706075834113573,0.5,41.73113063189604,41.731130631944445,-4.8402171159978025e-11,,2025-02-15 23:16:07.929725+00:00
+SHP-0068,departure,port_congestion,False,,,Mundra (synthetic profile),,0.5,124.74166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-11 08:00:00+00:00
+SHP-0068,departure,port_weather,False,,,,,0.0,124.74166666666667,,,unsupported_not_consumed_by_propagation,
+SHP-0068,departure,customs_workload,False,,,Mundra (synthetic profile),,0.5,124.74166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-11 19:00:00+00:00
+SHP-0068,departure,inland_traffic,False,,,inland_b,,0.5,124.74166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-12 17:00:00+00:00
+SHP-0068,port_arrival,port_congestion,False,,,Mundra (synthetic profile),,0.5,39.20196118989603,,,no_eligible_forecast; propagation_used_observation,2025-02-11 08:00:00+00:00
+SHP-0068,port_arrival,port_weather,False,,,,,0.0,39.20196118989603,,,unsupported_not_consumed_by_propagation,
+SHP-0068,port_arrival,customs_workload,False,,,Mundra (synthetic profile),,0.5,39.20196118989603,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-11 19:00:00+00:00
+SHP-0068,port_arrival,inland_traffic,False,,,inland_b,,0.5,39.20196118989603,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-12 17:00:00+00:00
+SHP-0068,customs_cleared,port_congestion,False,,,,,0.5,44.541253239887666,,,unsupported_not_consumed_by_propagation,
+SHP-0068,customs_cleared,port_weather,False,,,,,0.0,44.541253239887666,,,unsupported_not_consumed_by_propagation,
+SHP-0068,customs_cleared,customs_workload,False,,,,,0.5,44.541253239887666,,,unsupported_not_consumed_by_propagation,
+SHP-0068,customs_cleared,inland_traffic,True,2025-02-11 20:27:31.488336+00:00,2025-02-12 18:27:31.488336+00:00,inland_b,0.3269048050300809,0.5,44.541253239887666,44.54125324,-1.1233680652367184e-10,,2025-02-12 18:27:31.488336+00:00
+SHP-0092,departure,port_congestion,False,,,Mundra (synthetic profile),,0.5,133.15833333333333,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-29 16:00:00+00:00
+SHP-0092,departure,port_weather,False,,,,,0.0,133.15833333333333,,,unsupported_not_consumed_by_propagation,
+SHP-0092,departure,customs_workload,False,,,Mundra (synthetic profile),,0.5,133.15833333333333,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-30 14:00:00+00:00
+SHP-0092,departure,inland_traffic,False,,,inland_b,,0.5,133.15833333333333,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-31 12:00:00+00:00
+SHP-0092,port_arrival,port_congestion,False,,,Mundra (synthetic profile),,0.5,34.41211046694445,,,no_eligible_forecast; propagation_used_observation,2025-01-29 08:00:00+00:00
+SHP-0092,port_arrival,port_weather,False,,,,,0.0,34.41211046694445,,,unsupported_not_consumed_by_propagation,
+SHP-0092,port_arrival,customs_workload,False,,,Mundra (synthetic profile),,0.5,34.41211046694445,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-29 19:00:00+00:00
+SHP-0092,port_arrival,inland_traffic,False,,,inland_b,,0.5,34.41211046694445,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-30 17:00:00+00:00
+SHP-0092,customs_cleared,port_congestion,False,,,,,0.5,44.318095778362135,,,unsupported_not_consumed_by_propagation,
+SHP-0092,customs_cleared,port_weather,False,,,,,0.0,44.318095778362135,,,unsupported_not_consumed_by_propagation,
+SHP-0092,customs_cleared,customs_workload,False,,,,,0.5,44.318095778362135,,,unsupported_not_consumed_by_propagation,
+SHP-0092,customs_cleared,inland_traffic,True,2025-01-29 20:40:54.855198+00:00,2025-01-30 18:40:54.855198+00:00,inland_b,0.422234572682004,0.5,44.318095778362135,44.31809577833333,2.880540250771446e-11,,2025-01-30 18:40:54.855198+00:00
+SHP-0095,departure,port_congestion,False,,,Mundra (synthetic profile),,0.5,134.425,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-02 16:00:00+00:00
+SHP-0095,departure,port_weather,False,,,,,0.0,134.425,,,unsupported_not_consumed_by_propagation,
+SHP-0095,departure,customs_workload,False,,,Mundra (synthetic profile),,0.5,134.425,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-03 14:00:00+00:00
+SHP-0095,departure,inland_traffic,False,,,inland_b,,0.5,134.425,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-04 12:00:00+00:00
+SHP-0095,port_arrival,port_congestion,False,,,Mundra (synthetic profile),,0.5,43.76763271722223,,,no_eligible_forecast; propagation_used_observation,2025-02-03 00:00:00+00:00
+SHP-0095,port_arrival,port_weather,False,,,,,0.0,43.76763271722223,,,unsupported_not_consumed_by_propagation,
+SHP-0095,port_arrival,customs_workload,False,,,Mundra (synthetic profile),,0.5,43.76763271722223,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-03 14:00:00+00:00
+SHP-0095,port_arrival,inland_traffic,False,,,inland_b,,0.5,43.76763271722223,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-04 12:00:00+00:00
+SHP-0095,customs_cleared,port_congestion,False,,,,,0.5,21.926796722771964,,,unsupported_not_consumed_by_propagation,
+SHP-0095,customs_cleared,port_weather,False,,,,,0.0,21.926796722771964,,,unsupported_not_consumed_by_propagation,
+SHP-0095,customs_cleared,customs_workload,False,,,,,0.5,21.926796722771964,,,unsupported_not_consumed_by_propagation,
+SHP-0095,customs_cleared,inland_traffic,True,2025-02-03 15:22:18.290853+00:00,2025-02-04 13:22:18.290853+00:00,inland_b,0.48669031323126655,0.5,21.926796722771964,22.0,-0.07320327722803555,,2025-02-04 13:22:18.290853+00:00
+SHP-0100,departure,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,147.39166666666668,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-19 12:00:00+00:00
+SHP-0100,departure,port_weather,False,,,,,0.0,147.39166666666668,,,unsupported_not_consumed_by_propagation,
+SHP-0100,departure,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,147.39166666666668,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-20 16:00:00+00:00
+SHP-0100,departure,inland_traffic,False,,,inland_a,,0.5,147.39166666666668,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-21 10:00:00+00:00
+SHP-0100,port_arrival,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,46.706984007533784,,,no_eligible_forecast; propagation_used_observation,2025-01-19 12:00:00+00:00
+SHP-0100,port_arrival,port_weather,False,,,,,0.0,46.706984007533784,,,unsupported_not_consumed_by_propagation,
+SHP-0100,port_arrival,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,46.706984007533784,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-20 16:00:00+00:00
+SHP-0100,port_arrival,inland_traffic,False,,,inland_a,,0.5,46.706984007533784,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-21 10:00:00+00:00
+SHP-0100,customs_cleared,port_congestion,False,,,,,0.5,17.564070122457263,,,unsupported_not_consumed_by_propagation,
+SHP-0100,customs_cleared,port_weather,False,,,,,0.0,17.564070122457263,,,unsupported_not_consumed_by_propagation,
+SHP-0100,customs_cleared,customs_workload,False,,,,,0.5,17.564070122457263,,,unsupported_not_consumed_by_propagation,
+SHP-0100,customs_cleared,inland_traffic,True,2025-01-20 17:37:49.626254+00:00,2025-01-21 11:37:49.626254+00:00,inland_a,0.4031266938793917,0.5,17.564070122457263,18.0,-0.43592987754273693,,2025-01-21 11:37:49.626254+00:00
+SHP-0101,departure,port_congestion,False,,,Mundra (synthetic profile),,0.5,129.59166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-10 16:00:00+00:00
+SHP-0101,departure,port_weather,False,,,,,0.0,129.59166666666667,,,unsupported_not_consumed_by_propagation,
+SHP-0101,departure,customs_workload,False,,,Mundra (synthetic profile),,0.5,129.59166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-11 14:00:00+00:00
+SHP-0101,departure,inland_traffic,False,,,inland_b,,0.5,129.59166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-12 12:00:00+00:00
+SHP-0101,port_arrival,port_congestion,False,,,Mundra (synthetic profile),,0.5,50.60136464474759,,,no_eligible_forecast; propagation_used_observation,2025-01-10 16:00:00+00:00
+SHP-0101,port_arrival,port_weather,False,,,,,0.0,50.60136464474759,,,unsupported_not_consumed_by_propagation,
+SHP-0101,port_arrival,customs_workload,False,,,Mundra (synthetic profile),,0.5,50.60136464474759,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-11 14:00:00+00:00
+SHP-0101,port_arrival,inland_traffic,False,,,inland_b,,0.5,50.60136464474759,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-12 12:00:00+00:00
+SHP-0101,customs_cleared,port_congestion,False,,,,,0.5,21.622056959471998,,,unsupported_not_consumed_by_propagation,
+SHP-0101,customs_cleared,port_weather,False,,,,,0.0,21.622056959471998,,,unsupported_not_consumed_by_propagation,
+SHP-0101,customs_cleared,customs_workload,False,,,,,0.5,21.622056959471998,,,unsupported_not_consumed_by_propagation,
+SHP-0101,customs_cleared,inland_traffic,True,2025-01-11 15:08:18.865909+00:00,2025-01-12 13:08:18.865909+00:00,inland_b,0.43128308354036304,0.5,21.622056959471998,22.0,-0.3779430405280024,,2025-01-12 13:08:18.865909+00:00
+SHP-0103,departure,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,130.80833333333334,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-28 00:00:00+00:00
+SHP-0103,departure,port_weather,False,,,,,0.0,130.80833333333334,,,unsupported_not_consumed_by_propagation,
+SHP-0103,departure,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,130.80833333333334,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-28 16:00:00+00:00
+SHP-0103,departure,inland_traffic,False,,,inland_a,,0.5,130.80833333333334,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-29 10:00:00+00:00
+SHP-0103,port_arrival,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,42.42317559888889,,,no_eligible_forecast; propagation_used_observation,2025-01-28 00:00:00+00:00
+SHP-0103,port_arrival,port_weather,False,,,,,0.0,42.42317559888889,,,unsupported_not_consumed_by_propagation,
+SHP-0103,port_arrival,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,42.42317559888889,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-28 16:00:00+00:00
+SHP-0103,port_arrival,inland_traffic,False,,,inland_a,,0.5,42.42317559888889,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-29 10:00:00+00:00
+SHP-0103,customs_cleared,port_congestion,False,,,,,0.5,17.636248727807445,,,unsupported_not_consumed_by_propagation,
+SHP-0103,customs_cleared,port_weather,False,,,,,0.0,17.636248727807445,,,unsupported_not_consumed_by_propagation,
+SHP-0103,customs_cleared,customs_workload,False,,,,,0.5,17.636248727807445,,,unsupported_not_consumed_by_propagation,
+SHP-0103,customs_cleared,inland_traffic,True,2025-01-28 17:30:29.156010+00:00,2025-01-29 11:30:29.156010+00:00,inland_a,0.41916638395720984,0.5,17.636248727807445,18.0,-0.3637512721925553,,2025-01-29 11:30:29.156010+00:00
+SHP-0117,departure,port_congestion,False,,,Synthetic Port C,,0.5,202.5,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-16 00:00:00+00:00
+SHP-0117,departure,port_weather,False,,,,,0.0,202.5,,,unsupported_not_consumed_by_propagation,
+SHP-0117,departure,customs_workload,False,,,Synthetic Port C,,0.5,202.5,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-17 19:00:00+00:00
+SHP-0117,departure,inland_traffic,False,,,inland_c,,0.5,202.5,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-18 21:00:00+00:00
+SHP-0117,port_arrival,port_congestion,False,,,Synthetic Port C,,0.5,86.62694277388889,,,no_eligible_forecast; propagation_used_observation,2025-02-17 12:00:00+00:00
+SHP-0117,port_arrival,port_weather,False,,,,,0.0,86.62694277388889,,,unsupported_not_consumed_by_propagation,
+SHP-0117,port_arrival,customs_workload,False,,,Synthetic Port C,,0.5,86.62694277388889,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-18 02:00:00+00:00
+SHP-0117,port_arrival,inland_traffic,False,,,inland_c,,0.5,86.62694277388889,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-19 04:00:00+00:00
+SHP-0117,customs_cleared,port_congestion,False,,,,,0.5,41.796407265150705,,,unsupported_not_consumed_by_propagation,
+SHP-0117,customs_cleared,port_weather,False,,,,,0.0,41.796407265150705,,,unsupported_not_consumed_by_propagation,
+SHP-0117,customs_cleared,customs_workload,False,,,,,0.5,41.796407265150705,,,unsupported_not_consumed_by_propagation,
+SHP-0117,customs_cleared,inland_traffic,True,2025-02-21 21:12:12.933845+00:00,2025-02-22 23:12:12.933845+00:00,inland_c,0.32179644489498027,0.5,41.796407265150705,41.79640726527778,-1.2707346286333632e-10,,2025-02-22 23:12:12.933845+00:00
+SHP-0119,departure,port_congestion,False,,,Mundra (synthetic profile),,0.5,132.575,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-24 16:00:00+00:00
+SHP-0119,departure,port_weather,False,,,,,0.0,132.575,,,unsupported_not_consumed_by_propagation,
+SHP-0119,departure,customs_workload,False,,,Mundra (synthetic profile),,0.5,132.575,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-25 14:00:00+00:00
+SHP-0119,departure,inland_traffic,False,,,inland_b,,0.5,132.575,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-26 12:00:00+00:00
+SHP-0119,port_arrival,port_congestion,False,,,Mundra (synthetic profile),,0.5,42.826685860387734,,,no_eligible_forecast; propagation_used_observation,2025-01-25 00:00:00+00:00
+SHP-0119,port_arrival,port_weather,False,,,,,0.0,42.826685860387734,,,unsupported_not_consumed_by_propagation,
+SHP-0119,port_arrival,customs_workload,False,,,Mundra (synthetic profile),,0.5,42.826685860387734,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-25 14:00:00+00:00
+SHP-0119,port_arrival,inland_traffic,False,,,inland_b,,0.5,42.826685860387734,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-26 12:00:00+00:00
+SHP-0119,customs_cleared,port_congestion,False,,,,,0.5,21.95603468080868,,,unsupported_not_consumed_by_propagation,
+SHP-0119,customs_cleared,port_weather,False,,,,,0.0,21.95603468080868,,,unsupported_not_consumed_by_propagation,
+SHP-0119,customs_cleared,customs_workload,False,,,,,0.5,21.95603468080868,,,unsupported_not_consumed_by_propagation,
+SHP-0119,customs_cleared,inland_traffic,True,2025-01-25 14:57:41.956275+00:00,2025-01-26 12:57:41.956275+00:00,inland_b,0.49200630560157865,0.5,21.95603468080868,22.0,-0.04396531919131874,,2025-01-26 12:57:41.956275+00:00
+SHP-0125,departure,port_congestion,False,,,Mundra (synthetic profile),,0.5,141.45833333333334,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-16 08:00:00+00:00
+SHP-0125,departure,port_weather,False,,,,,0.0,141.45833333333334,,,unsupported_not_consumed_by_propagation,
+SHP-0125,departure,customs_workload,False,,,Mundra (synthetic profile),,0.5,141.45833333333334,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-17 14:00:00+00:00
+SHP-0125,departure,inland_traffic,False,,,inland_b,,0.5,141.45833333333334,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-18 12:00:00+00:00
+SHP-0125,port_arrival,port_congestion,False,,,Mundra (synthetic profile),,0.5,58.18397907656112,,,no_eligible_forecast; propagation_used_observation,2025-02-16 08:00:00+00:00
+SHP-0125,port_arrival,port_weather,False,,,,,0.0,58.18397907656112,,,unsupported_not_consumed_by_propagation,
+SHP-0125,port_arrival,customs_workload,False,,,Mundra (synthetic profile),,0.5,58.18397907656112,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-17 14:00:00+00:00
+SHP-0125,port_arrival,inland_traffic,False,,,inland_b,,0.5,58.18397907656112,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-18 12:00:00+00:00
+SHP-0125,customs_cleared,port_congestion,False,,,,,0.5,22.27516428207888,,,unsupported_not_consumed_by_propagation,
+SHP-0125,customs_cleared,port_weather,False,,,,,0.0,22.27516428207888,,,unsupported_not_consumed_by_propagation,
+SHP-0125,customs_cleared,customs_workload,False,,,,,0.5,22.27516428207888,,,unsupported_not_consumed_by_propagation,
+SHP-0125,customs_cleared,inland_traffic,True,2025-02-17 14:59:10.871645+00:00,2025-02-18 12:59:10.871645+00:00,inland_b,0.5500298694688877,0.5,22.27516428207888,22.0,0.27516428207887955,,2025-02-18 12:59:10.871645+00:00
+SHP-0140,departure,port_congestion,False,,,Mundra (synthetic profile),,0.5,121.60833333333333,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-27 00:00:00+00:00
+SHP-0140,departure,port_weather,False,,,,,0.0,121.60833333333333,,,unsupported_not_consumed_by_propagation,
+SHP-0140,departure,customs_workload,False,,,Mundra (synthetic profile),,0.5,121.60833333333333,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-27 14:00:00+00:00
+SHP-0140,departure,inland_traffic,False,,,inland_b,,0.5,121.60833333333333,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-28 12:00:00+00:00
+SHP-0140,port_arrival,port_congestion,True,2025-01-26 20:50:26.798648+00:00,2025-01-27 00:50:26.798648+00:00,Mundra (synthetic profile),0.35965066441499616,0.5,38.884222597831105,38.88422259777778,5.332623231879552e-11,,2025-01-27 00:00:00+00:00
+SHP-0140,port_arrival,port_weather,False,,,,,0.0,38.884222597831105,,,unsupported_not_consumed_by_propagation,
+SHP-0140,port_arrival,customs_workload,False,,,Mundra (synthetic profile),,0.5,38.884222597831105,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-27 14:00:00+00:00
+SHP-0140,port_arrival,inland_traffic,False,,,inland_b,,0.5,38.884222597831105,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-28 12:00:00+00:00
+SHP-0140,customs_cleared,port_congestion,False,,,,,0.5,21.866531483597875,,,unsupported_not_consumed_by_propagation,
+SHP-0140,customs_cleared,port_weather,False,,,,,0.0,21.866531483597875,,,unsupported_not_consumed_by_propagation,
+SHP-0140,customs_cleared,customs_workload,False,,,,,0.5,21.866531483597875,,,unsupported_not_consumed_by_propagation,
+SHP-0140,customs_cleared,inland_traffic,True,2025-01-27 15:08:08.470390+00:00,2025-01-28 13:08:08.470390+00:00,inland_b,0.47573299701779553,0.5,21.866531483597875,22.0,-0.1334685164021252,,2025-01-28 13:08:08.470390+00:00
+SHP-0146,departure,port_congestion,False,,,Mundra (synthetic profile),,0.5,127.175,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-22 00:00:00+00:00
+SHP-0146,departure,port_weather,False,,,,,0.0,127.175,,,unsupported_not_consumed_by_propagation,
+SHP-0146,departure,customs_workload,False,,,Mundra (synthetic profile),,0.5,127.175,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-22 14:00:00+00:00
+SHP-0146,departure,inland_traffic,False,,,inland_b,,0.5,127.175,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-23 12:00:00+00:00
+SHP-0146,port_arrival,port_congestion,False,,,Mundra (synthetic profile),,0.5,45.59830350944445,,,no_eligible_forecast; propagation_used_observation,2025-01-21 16:00:00+00:00
+SHP-0146,port_arrival,port_weather,False,,,,,0.0,45.59830350944445,,,unsupported_not_consumed_by_propagation,
+SHP-0146,port_arrival,customs_workload,False,,,Mundra (synthetic profile),,0.5,45.59830350944445,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-22 14:00:00+00:00
+SHP-0146,port_arrival,inland_traffic,False,,,inland_b,,0.5,45.59830350944445,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-23 12:00:00+00:00
+SHP-0146,customs_cleared,port_congestion,False,,,,,0.5,21.829229560927352,,,unsupported_not_consumed_by_propagation,
+SHP-0146,customs_cleared,port_weather,False,,,,,0.0,21.829229560927352,,,unsupported_not_consumed_by_propagation,
+SHP-0146,customs_cleared,customs_workload,False,,,,,0.5,21.829229560927352,,,unsupported_not_consumed_by_propagation,
+SHP-0146,customs_cleared,inland_traffic,True,2025-01-22 15:23:37.662492+00:00,2025-01-23 13:23:37.662492+00:00,inland_b,0.46895082925951875,0.5,21.829229560927352,22.0,-0.17077043907264766,,2025-01-23 13:23:37.662492+00:00
+SHP-0147,departure,port_congestion,False,,,Synthetic Port C,,0.5,229.06666666666666,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-11 00:00:00+00:00
+SHP-0147,departure,port_weather,False,,,,,0.0,229.06666666666666,,,unsupported_not_consumed_by_propagation,
+SHP-0147,departure,customs_workload,False,,,Synthetic Port C,,0.5,229.06666666666666,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-13 19:00:00+00:00
+SHP-0147,departure,inland_traffic,False,,,inland_c,,0.5,229.06666666666666,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-14 21:00:00+00:00
+SHP-0147,port_arrival,port_congestion,False,,,Synthetic Port C,,0.5,118.67350016,,,no_eligible_forecast; propagation_used_observation,2025-01-11 00:00:00+00:00
+SHP-0147,port_arrival,port_weather,False,,,,,0.0,118.67350016,,,unsupported_not_consumed_by_propagation,
+SHP-0147,port_arrival,customs_workload,False,,,Synthetic Port C,,0.5,118.67350016,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-13 19:00:00+00:00
+SHP-0147,port_arrival,inland_traffic,False,,,inland_c,,0.5,118.67350016,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-14 21:00:00+00:00
+SHP-0147,customs_cleared,port_congestion,False,,,,,0.5,41.88077807379152,,,unsupported_not_consumed_by_propagation,
+SHP-0147,customs_cleared,port_weather,False,,,,,0.0,41.88077807379152,,,unsupported_not_consumed_by_propagation,
+SHP-0147,customs_cleared,customs_workload,False,,,,,0.5,41.88077807379152,,,unsupported_not_consumed_by_propagation,
+SHP-0147,customs_cleared,inland_traffic,True,2025-01-13 21:07:09.198934+00:00,2025-01-14 23:07:09.198934+00:00,inland_c,0.47080078857476343,0.5,41.88077807379152,41.88077807388889,-9.737277650856413e-11,,2025-01-14 23:07:09.198934+00:00
+SHP-0148,departure,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,149.09166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-26 12:00:00+00:00
+SHP-0148,departure,port_weather,False,,,,,0.0,149.09166666666667,,,unsupported_not_consumed_by_propagation,
+SHP-0148,departure,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,149.09166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-27 16:00:00+00:00
+SHP-0148,departure,inland_traffic,False,,,inland_a,,0.5,149.09166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-28 10:00:00+00:00
+SHP-0148,port_arrival,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,60.10847735138889,,,no_eligible_forecast; propagation_used_observation,2025-01-26 12:00:00+00:00
+SHP-0148,port_arrival,port_weather,False,,,,,0.0,60.10847735138889,,,unsupported_not_consumed_by_propagation,
+SHP-0148,port_arrival,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,60.10847735138889,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-27 16:00:00+00:00
+SHP-0148,port_arrival,inland_traffic,False,,,inland_a,,0.5,60.10847735138889,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-28 10:00:00+00:00
+SHP-0148,customs_cleared,port_congestion,False,,,,,0.5,18.026097965104395,,,unsupported_not_consumed_by_propagation,
+SHP-0148,customs_cleared,port_weather,False,,,,,0.0,18.026097965104395,,,unsupported_not_consumed_by_propagation,
+SHP-0148,customs_cleared,customs_workload,False,,,,,0.5,18.026097965104395,,,unsupported_not_consumed_by_propagation,
+SHP-0148,customs_cleared,inland_traffic,True,2025-01-27 17:40:16.734182+00:00,2025-01-28 11:40:16.734182+00:00,inland_a,0.5057995478009765,0.5,18.026097965104395,18.0,0.02609796510439466,,2025-01-28 11:40:16.734182+00:00
+SHP-0150,departure,port_congestion,False,,,Synthetic Port C,,0.5,194.7,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-26 12:00:00+00:00
+SHP-0150,departure,port_weather,False,,,,,0.0,194.7,,,unsupported_not_consumed_by_propagation,
+SHP-0150,departure,customs_workload,False,,,Synthetic Port C,,0.5,194.7,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-27 19:00:00+00:00
+SHP-0150,departure,inland_traffic,False,,,inland_c,,0.5,194.7,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-28 21:00:00+00:00
+SHP-0150,port_arrival,port_congestion,False,,,Synthetic Port C,,0.5,89.68890318666666,,,no_eligible_forecast; propagation_used_observation,2025-01-26 12:00:00+00:00
+SHP-0150,port_arrival,port_weather,False,,,,,0.0,89.68890318666666,,,unsupported_not_consumed_by_propagation,
+SHP-0150,port_arrival,customs_workload,False,,,Synthetic Port C,,0.5,89.68890318666666,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-27 19:00:00+00:00
+SHP-0150,port_arrival,inland_traffic,False,,,inland_c,,0.5,89.68890318666666,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-28 21:00:00+00:00
+SHP-0150,customs_cleared,port_congestion,False,,,,,0.5,41.68329943394629,,,unsupported_not_consumed_by_propagation,
+SHP-0150,customs_cleared,port_weather,False,,,,,0.0,41.68329943394629,,,unsupported_not_consumed_by_propagation,
+SHP-0150,customs_cleared,customs_workload,False,,,,,0.5,41.68329943394629,,,unsupported_not_consumed_by_propagation,
+SHP-0150,customs_cleared,inland_traffic,True,2025-01-27 21:19:00.122038+00:00,2025-01-28 23:19:00.122038+00:00,inland_c,0.5308935714618228,0.5,41.68329943394629,41.68329943388889,5.739764219470089e-11,,2025-01-28 23:19:00.122038+00:00
+SHP-0151,departure,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,150.85,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-10 12:00:00+00:00
+SHP-0151,departure,port_weather,False,,,,,0.0,150.85,,,unsupported_not_consumed_by_propagation,
+SHP-0151,departure,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,150.85,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-11 00:00:00+00:00
+SHP-0151,departure,inland_traffic,False,,,inland_a,,0.5,150.85,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-11 18:00:00+00:00
+SHP-0151,port_arrival,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,58.02245659222223,,,no_eligible_forecast; propagation_used_observation,2025-02-10 12:00:00+00:00
+SHP-0151,port_arrival,port_weather,False,,,,,0.0,58.02245659222223,,,unsupported_not_consumed_by_propagation,
+SHP-0151,port_arrival,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,58.02245659222223,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-11 00:00:00+00:00
+SHP-0151,port_arrival,inland_traffic,False,,,inland_a,,0.5,58.02245659222223,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-11 18:00:00+00:00
+SHP-0151,customs_cleared,port_congestion,False,,,,,0.5,17.567421700932236,,,unsupported_not_consumed_by_propagation,
+SHP-0151,customs_cleared,port_weather,False,,,,,0.0,17.567421700932236,,,unsupported_not_consumed_by_propagation,
+SHP-0151,customs_cleared,customs_workload,False,,,,,0.5,17.567421700932236,,,unsupported_not_consumed_by_propagation,
+SHP-0151,customs_cleared,inland_traffic,True,2025-02-11 17:27:57.262609+00:00,2025-02-12 11:27:57.262609+00:00,inland_a,0.40387148909605197,0.5,17.567421700932236,18.0,-0.4325782990677638,,2025-02-12 11:27:57.262609+00:00
+SHP-0183,departure,port_congestion,False,,,Synthetic Port C,,0.5,220.35,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-11 00:00:00+00:00
+SHP-0183,departure,port_weather,False,,,,,0.0,220.35,,,unsupported_not_consumed_by_propagation,
+SHP-0183,departure,customs_workload,False,,,Synthetic Port C,,0.5,220.35,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-13 19:00:00+00:00
+SHP-0183,departure,inland_traffic,False,,,inland_c,,0.5,220.35,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-14 21:00:00+00:00
+SHP-0183,port_arrival,port_congestion,False,,,Synthetic Port C,,0.5,104.37171037527779,,,no_eligible_forecast; propagation_used_observation,2025-01-12 00:00:00+00:00
+SHP-0183,port_arrival,port_weather,False,,,,,0.0,104.37171037527779,,,unsupported_not_consumed_by_propagation,
+SHP-0183,port_arrival,customs_workload,False,,,Synthetic Port C,,0.5,104.37171037527779,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-13 19:00:00+00:00
+SHP-0183,port_arrival,inland_traffic,False,,,inland_c,,0.5,104.37171037527779,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-14 21:00:00+00:00
+SHP-0183,customs_cleared,port_congestion,False,,,,,0.5,41.88077807385062,,,unsupported_not_consumed_by_propagation,
+SHP-0183,customs_cleared,port_weather,False,,,,,0.0,41.88077807385062,,,unsupported_not_consumed_by_propagation,
+SHP-0183,customs_cleared,customs_workload,False,,,,,0.5,41.88077807385062,,,unsupported_not_consumed_by_propagation,
+SHP-0183,customs_cleared,inland_traffic,True,2025-01-13 21:07:09.198934+00:00,2025-01-14 23:07:09.198934+00:00,inland_c,0.4362568632419755,0.5,41.88077807385062,41.88077807388889,-3.8269831748038996e-11,,2025-01-14 23:07:09.198934+00:00
+SHP-0186,departure,port_congestion,False,,,Synthetic Port C,,0.5,179.71666666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-12 00:00:00+00:00
+SHP-0186,departure,port_weather,False,,,,,0.0,179.71666666666667,,,unsupported_not_consumed_by_propagation,
+SHP-0186,departure,customs_workload,False,,,Synthetic Port C,,0.5,179.71666666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-12 19:00:00+00:00
+SHP-0186,departure,inland_traffic,False,,,inland_c,,0.5,179.71666666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-13 21:00:00+00:00
+SHP-0186,port_arrival,port_congestion,False,,,Synthetic Port C,,0.5,84.71936811027778,,,no_eligible_forecast; propagation_used_observation,2025-02-13 12:00:00+00:00
+SHP-0186,port_arrival,port_weather,False,,,,,0.0,84.71936811027778,,,unsupported_not_consumed_by_propagation,
+SHP-0186,port_arrival,customs_workload,False,,,Synthetic Port C,,0.5,84.71936811027778,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-14 02:00:00+00:00
+SHP-0186,port_arrival,inland_traffic,False,,,inland_c,,0.5,84.71936811027778,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-15 04:00:00+00:00
+SHP-0186,customs_cleared,port_congestion,False,,,,,0.5,27.179387075395738,,,unsupported_not_consumed_by_propagation,
+SHP-0186,customs_cleared,port_weather,False,,,,,0.0,27.179387075395738,,,unsupported_not_consumed_by_propagation,
+SHP-0186,customs_cleared,customs_workload,False,,,,,0.5,27.179387075395738,,,unsupported_not_consumed_by_propagation,
+SHP-0186,customs_cleared,inland_traffic,True,2025-02-17 21:41:22.624262+00:00,2025-02-18 23:41:22.624262+00:00,inland_c,0.6814441654454979,0.5,27.179387075395738,41.31038214944444,-14.130995074048705,,2025-02-18 23:41:22.624262+00:00
+SHP-0191,departure,port_congestion,False,,,Mundra (synthetic profile),,0.5,154.325,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-15 16:00:00+00:00
+SHP-0191,departure,port_weather,False,,,,,0.0,154.325,,,unsupported_not_consumed_by_propagation,
+SHP-0191,departure,customs_workload,False,,,Mundra (synthetic profile),,0.5,154.325,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-17 14:00:00+00:00
+SHP-0191,departure,inland_traffic,False,,,inland_b,,0.5,154.325,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-18 12:00:00+00:00
+SHP-0191,port_arrival,port_congestion,False,,,Mundra (synthetic profile),,0.5,75.04848760450835,,,no_eligible_forecast; propagation_used_observation,2025-02-15 16:00:00+00:00
+SHP-0191,port_arrival,port_weather,False,,,,,0.0,75.04848760450835,,,unsupported_not_consumed_by_propagation,
+SHP-0191,port_arrival,customs_workload,False,,,Mundra (synthetic profile),,0.5,75.04848760450835,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-17 14:00:00+00:00
+SHP-0191,port_arrival,inland_traffic,False,,,inland_b,,0.5,75.04848760450835,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-18 12:00:00+00:00
+SHP-0191,customs_cleared,port_congestion,False,,,,,0.5,21.019676659340014,,,unsupported_not_consumed_by_propagation,
+SHP-0191,customs_cleared,port_weather,False,,,,,0.0,21.019676659340014,,,unsupported_not_consumed_by_propagation,
+SHP-0191,customs_cleared,customs_workload,False,,,,,0.5,21.019676659340014,,,unsupported_not_consumed_by_propagation,
+SHP-0191,customs_cleared,inland_traffic,True,2025-02-17 14:59:10.871645+00:00,2025-02-18 12:59:10.871645+00:00,inland_b,0.3217593926072754,0.5,21.019676659340014,22.0,-0.9803233406599858,,2025-02-18 12:59:10.871645+00:00
+SHP-0194,departure,port_congestion,False,,,Mundra (synthetic profile),,0.5,124.60833333333333,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-09 00:00:00+00:00
+SHP-0194,departure,port_weather,False,,,,,0.0,124.60833333333333,,,unsupported_not_consumed_by_propagation,
+SHP-0194,departure,customs_workload,False,,,Mundra (synthetic profile),,0.5,124.60833333333333,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-09 14:00:00+00:00
+SHP-0194,departure,inland_traffic,False,,,inland_b,,0.5,124.60833333333333,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-10 12:00:00+00:00
+SHP-0194,port_arrival,port_congestion,False,,,Mundra (synthetic profile),,0.5,37.90416665916667,,,no_eligible_forecast; propagation_used_observation,2025-01-09 08:00:00+00:00
+SHP-0194,port_arrival,port_weather,False,,,,,0.0,37.90416665916667,,,unsupported_not_consumed_by_propagation,
+SHP-0194,port_arrival,customs_workload,False,,,Mundra (synthetic profile),,0.5,37.90416665916667,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-09 19:00:00+00:00
+SHP-0194,port_arrival,inland_traffic,False,,,inland_b,,0.5,37.90416665916667,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-10 17:00:00+00:00
+SHP-0194,customs_cleared,port_congestion,False,,,,,0.5,21.18598375367456,,,unsupported_not_consumed_by_propagation,
+SHP-0194,customs_cleared,port_weather,False,,,,,0.0,21.18598375367456,,,unsupported_not_consumed_by_propagation,
+SHP-0194,customs_cleared,customs_workload,False,,,,,0.5,21.18598375367456,,,unsupported_not_consumed_by_propagation,
+SHP-0194,customs_cleared,inland_traffic,True,2025-01-09 19:39:00.676281+00:00,2025-01-10 17:39:00.676281+00:00,inland_b,0.35199704612264693,0.5,21.18598375367456,45.34981214416667,-24.16382839049211,,2025-01-10 17:39:00.676281+00:00
+SHP-0208,departure,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,186.075,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-01 00:00:00+00:00
+SHP-0208,departure,port_weather,False,,,,,0.0,186.075,,,unsupported_not_consumed_by_propagation,
+SHP-0208,departure,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,186.075,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-03 16:00:00+00:00
+SHP-0208,departure,inland_traffic,False,,,inland_a,,0.5,186.075,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-04 10:00:00+00:00
+SHP-0208,port_arrival,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,82.17908781333334,,,no_eligible_forecast; propagation_used_observation,2025-02-01 12:00:00+00:00
+SHP-0208,port_arrival,port_weather,False,,,,,0.0,82.17908781333334,,,unsupported_not_consumed_by_propagation,
+SHP-0208,port_arrival,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,82.17908781333334,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-03 16:00:00+00:00
+SHP-0208,port_arrival,inland_traffic,False,,,inland_a,,0.5,82.17908781333334,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-04 10:00:00+00:00
+SHP-0208,customs_cleared,port_congestion,False,,,,,0.5,18.729054419046353,,,unsupported_not_consumed_by_propagation,
+SHP-0208,customs_cleared,port_weather,False,,,,,0.0,18.729054419046353,,,unsupported_not_consumed_by_propagation,
+SHP-0208,customs_cleared,customs_workload,False,,,,,0.5,18.729054419046353,,,unsupported_not_consumed_by_propagation,
+SHP-0208,customs_cleared,inland_traffic,True,2025-02-03 17:49:33.270548+00:00,2025-02-04 11:49:33.270548+00:00,inland_a,0.6620120931214118,0.5,18.729054419046353,18.0,0.7290544190463528,,2025-02-04 11:49:33.270548+00:00
+SHP-0212,departure,port_congestion,False,,,Mundra (synthetic profile),,0.5,122.09166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-16 08:00:00+00:00
+SHP-0212,departure,port_weather,False,,,,,0.0,122.09166666666667,,,unsupported_not_consumed_by_propagation,
+SHP-0212,departure,customs_workload,False,,,Mundra (synthetic profile),,0.5,122.09166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-16 19:00:00+00:00
+SHP-0212,departure,inland_traffic,False,,,inland_b,,0.5,122.09166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-17 17:00:00+00:00
+SHP-0212,port_arrival,port_congestion,False,,,Mundra (synthetic profile),,0.5,41.276698146111116,,,no_eligible_forecast; propagation_used_observation,2025-01-16 08:00:00+00:00
+SHP-0212,port_arrival,port_weather,False,,,,,0.0,41.276698146111116,,,unsupported_not_consumed_by_propagation,
+SHP-0212,port_arrival,customs_workload,False,,,Mundra (synthetic profile),,0.5,41.276698146111116,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-16 19:00:00+00:00
+SHP-0212,port_arrival,inland_traffic,False,,,inland_b,,0.5,41.276698146111116,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-17 17:00:00+00:00
+SHP-0212,customs_cleared,port_congestion,False,,,,,0.5,20.941684616588695,,,unsupported_not_consumed_by_propagation,
+SHP-0212,customs_cleared,port_weather,False,,,,,0.0,20.941684616588695,,,unsupported_not_consumed_by_propagation,
+SHP-0212,customs_cleared,customs_workload,False,,,,,0.5,20.941684616588695,,,unsupported_not_consumed_by_propagation,
+SHP-0212,customs_cleared,inland_traffic,True,2025-01-16 15:05:43.352337+00:00,2025-01-17 13:05:43.352337+00:00,inland_b,0.3075790211979448,0.5,20.941684616588695,22.0,-1.0583153834113048,,2025-01-17 13:05:43.352337+00:00
+SHP-0222,departure,port_congestion,False,,,Synthetic Port C,,0.5,150.70833333333334,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-05 12:00:00+00:00
+SHP-0222,departure,port_weather,False,,,,,0.0,150.70833333333334,,,unsupported_not_consumed_by_propagation,
+SHP-0222,departure,customs_workload,False,,,Synthetic Port C,,0.5,150.70833333333334,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-06 02:00:00+00:00
+SHP-0222,departure,inland_traffic,False,,,inland_c,,0.5,150.70833333333334,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-07 04:00:00+00:00
+SHP-0222,port_arrival,port_congestion,False,,,Synthetic Port C,,0.5,96.56465312138889,,,no_eligible_forecast; propagation_used_observation,2025-02-07 00:00:00+00:00
+SHP-0222,port_arrival,port_weather,False,,,,,0.0,96.56465312138889,,,unsupported_not_consumed_by_propagation,
+SHP-0222,port_arrival,customs_workload,False,,,Synthetic Port C,,0.5,96.56465312138889,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-07 19:00:00+00:00
+SHP-0222,port_arrival,inland_traffic,False,,,inland_c,,0.5,96.56465312138889,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-08 21:00:00+00:00
+SHP-0222,customs_cleared,port_congestion,False,,,,,0.5,26.587381889905448,,,unsupported_not_consumed_by_propagation,
+SHP-0222,customs_cleared,port_weather,False,,,,,0.0,26.587381889905448,,,unsupported_not_consumed_by_propagation,
+SHP-0222,customs_cleared,customs_workload,False,,,,,0.5,26.587381889905448,,,unsupported_not_consumed_by_propagation,
+SHP-0222,customs_cleared,inland_traffic,True,2025-02-10 21:37:15.956162+00:00,2025-02-11 23:37:15.956162+00:00,inland_c,0.5903664446008381,0.5,26.587381889905448,41.37890106611111,-14.791519176205664,,2025-02-11 23:37:15.956162+00:00
+SHP-0229,departure,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,158.28333333333333,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-09 12:00:00+00:00
+SHP-0229,departure,port_weather,False,,,,,0.0,158.28333333333333,,,unsupported_not_consumed_by_propagation,
+SHP-0229,departure,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,158.28333333333333,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-10 00:00:00+00:00
+SHP-0229,departure,inland_traffic,False,,,inland_a,,0.5,158.28333333333333,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-10 18:00:00+00:00
+SHP-0229,port_arrival,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,64.59649600111112,,,no_eligible_forecast; propagation_used_observation,2025-01-09 12:00:00+00:00
+SHP-0229,port_arrival,port_weather,False,,,,,0.0,64.59649600111112,,,unsupported_not_consumed_by_propagation,
+SHP-0229,port_arrival,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,64.59649600111112,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-10 00:00:00+00:00
+SHP-0229,port_arrival,inland_traffic,False,,,inland_a,,0.5,64.59649600111112,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-10 18:00:00+00:00
+SHP-0229,customs_cleared,port_congestion,False,,,,,0.5,39.01409120449644,,,unsupported_not_consumed_by_propagation,
+SHP-0229,customs_cleared,port_weather,False,,,,,0.0,39.01409120449644,,,unsupported_not_consumed_by_propagation,
+SHP-0229,customs_cleared,customs_workload,False,,,,,0.5,39.01409120449644,,,unsupported_not_consumed_by_propagation,
+SHP-0229,customs_cleared,inland_traffic,True,2025-01-10 00:59:09.271664+00:00,2025-01-10 18:59:09.271664+00:00,inland_a,0.36129974007328347,0.5,39.01409120449644,39.01409120444444,5.199751740292413e-11,,2025-01-10 18:59:09.271664+00:00
+SHP-0254,departure,port_congestion,False,,,Mundra (synthetic profile),,0.5,120.64166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-08 08:00:00+00:00
+SHP-0254,departure,port_weather,False,,,,,0.0,120.64166666666667,,,unsupported_not_consumed_by_propagation,
+SHP-0254,departure,customs_workload,False,,,Mundra (synthetic profile),,0.5,120.64166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-08 19:00:00+00:00
+SHP-0254,departure,inland_traffic,False,,,inland_b,,0.5,120.64166666666667,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-09 17:00:00+00:00
+SHP-0254,port_arrival,port_congestion,False,,,Mundra (synthetic profile),,0.5,38.42931459574973,,,no_eligible_forecast; propagation_used_observation,2025-01-08 00:00:00+00:00
+SHP-0254,port_arrival,port_weather,False,,,,,0.0,38.42931459574973,,,unsupported_not_consumed_by_propagation,
+SHP-0254,port_arrival,customs_workload,False,,,Mundra (synthetic profile),,0.5,38.42931459574973,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-08 14:00:00+00:00
+SHP-0254,port_arrival,inland_traffic,False,,,inland_b,,0.5,38.42931459574973,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-09 12:00:00+00:00
+SHP-0254,customs_cleared,port_congestion,False,,,,,0.5,21.21530619698719,,,unsupported_not_consumed_by_propagation,
+SHP-0254,customs_cleared,port_weather,False,,,,,0.0,21.21530619698719,,,unsupported_not_consumed_by_propagation,
+SHP-0254,customs_cleared,customs_workload,False,,,,,0.5,21.21530619698719,,,unsupported_not_consumed_by_propagation,
+SHP-0254,customs_cleared,inland_traffic,True,2025-01-08 15:15:50.280009+00:00,2025-01-09 13:15:50.280009+00:00,inland_b,0.35732839945221645,0.5,21.21530619698719,22.0,-0.7846938030128108,,2025-01-09 13:15:50.280009+00:00
+SHP-0257,departure,port_congestion,False,,,Mundra (synthetic profile),,0.5,133.79166666666666,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-07 16:00:00+00:00
+SHP-0257,departure,port_weather,False,,,,,0.0,133.79166666666666,,,unsupported_not_consumed_by_propagation,
+SHP-0257,departure,customs_workload,False,,,Mundra (synthetic profile),,0.5,133.79166666666666,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-08 14:00:00+00:00
+SHP-0257,departure,inland_traffic,False,,,inland_b,,0.5,133.79166666666666,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-09 12:00:00+00:00
+SHP-0257,port_arrival,port_congestion,False,,,Mundra (synthetic profile),,0.5,54.270647082500005,,,no_eligible_forecast; propagation_used_observation,2025-02-07 16:00:00+00:00
+SHP-0257,port_arrival,port_weather,False,,,,,0.0,54.270647082500005,,,unsupported_not_consumed_by_propagation,
+SHP-0257,port_arrival,customs_workload,False,,,Mundra (synthetic profile),,0.5,54.270647082500005,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-08 14:00:00+00:00
+SHP-0257,port_arrival,inland_traffic,False,,,inland_b,,0.5,54.270647082500005,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-09 12:00:00+00:00
+SHP-0257,customs_cleared,port_congestion,False,,,,,0.5,44.44806487240688,,,unsupported_not_consumed_by_propagation,
+SHP-0257,customs_cleared,port_weather,False,,,,,0.0,44.44806487240688,,,unsupported_not_consumed_by_propagation,
+SHP-0257,customs_cleared,customs_workload,False,,,,,0.5,44.44806487240688,,,unsupported_not_consumed_by_propagation,
+SHP-0257,customs_cleared,inland_traffic,True,2025-02-07 20:33:06.966459+00:00,2025-02-08 18:33:06.966459+00:00,inland_b,0.3309078720032706,0.5,44.44806487240688,44.4480648725,-9.311662552136113e-11,,2025-02-08 18:33:06.966459+00:00
+SHP-0274,departure,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,157.8,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-29 12:00:00+00:00
+SHP-0274,departure,port_weather,False,,,,,0.0,157.8,,,unsupported_not_consumed_by_propagation,
+SHP-0274,departure,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,157.8,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-30 00:00:00+00:00
+SHP-0274,departure,inland_traffic,False,,,inland_a,,0.5,157.8,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-30 18:00:00+00:00
+SHP-0274,port_arrival,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,63.83222262539902,,,no_eligible_forecast; propagation_used_observation,2025-01-29 12:00:00+00:00
+SHP-0274,port_arrival,port_weather,False,,,,,0.0,63.83222262539902,,,unsupported_not_consumed_by_propagation,
+SHP-0274,port_arrival,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,63.83222262539902,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-30 00:00:00+00:00
+SHP-0274,port_arrival,inland_traffic,False,,,inland_a,,0.5,63.83222262539902,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-30 18:00:00+00:00
+SHP-0274,customs_cleared,port_congestion,False,,,,,0.5,37.91544391622085,,,unsupported_not_consumed_by_propagation,
+SHP-0274,customs_cleared,port_weather,False,,,,,0.0,37.91544391622085,,,unsupported_not_consumed_by_propagation,
+SHP-0274,customs_cleared,customs_workload,False,,,,,0.5,37.91544391622085,,,unsupported_not_consumed_by_propagation,
+SHP-0274,customs_cleared,inland_traffic,True,2025-01-30 02:05:04.401902+00:00,2025-01-30 20:05:04.401902+00:00,inland_a,0.48875763422191837,0.5,37.91544391622085,37.915443916111116,1.0973622011078987e-10,,2025-01-30 20:05:04.401902+00:00
+SHP-0277,departure,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,156.4,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-29 12:00:00+00:00
+SHP-0277,departure,port_weather,False,,,,,0.0,156.4,,,unsupported_not_consumed_by_propagation,
+SHP-0277,departure,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,156.4,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-30 00:00:00+00:00
+SHP-0277,departure,inland_traffic,False,,,inland_a,,0.5,156.4,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-30 18:00:00+00:00
+SHP-0277,port_arrival,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,46.195978795,,,no_eligible_forecast; propagation_used_observation,2025-01-30 00:00:00+00:00
+SHP-0277,port_arrival,port_weather,False,,,,,0.0,46.195978795,,,unsupported_not_consumed_by_propagation,
+SHP-0277,port_arrival,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,46.195978795,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-30 16:00:00+00:00
+SHP-0277,port_arrival,inland_traffic,False,,,inland_a,,0.5,46.195978795,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-31 10:00:00+00:00
+SHP-0277,customs_cleared,port_congestion,False,,,,,0.5,17.400697864628043,,,unsupported_not_consumed_by_propagation,
+SHP-0277,customs_cleared,port_weather,False,,,,,0.0,17.400697864628043,,,unsupported_not_consumed_by_propagation,
+SHP-0277,customs_cleared,customs_workload,False,,,,,0.5,17.400697864628043,,,unsupported_not_consumed_by_propagation,
+SHP-0277,customs_cleared,inland_traffic,True,2025-01-30 17:00:17.198427+00:00,2025-01-31 11:00:17.198427+00:00,inland_a,0.3668217476951209,0.5,17.400697864628043,18.0,-0.599302135371957,,2025-01-31 11:00:17.198427+00:00
+SHP-0283,departure,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,140.225,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-17 00:00:00+00:00
+SHP-0283,departure,port_weather,False,,,,,0.0,140.225,,,unsupported_not_consumed_by_propagation,
+SHP-0283,departure,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,140.225,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-17 16:00:00+00:00
+SHP-0283,departure,inland_traffic,False,,,inland_a,,0.5,140.225,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-18 10:00:00+00:00
+SHP-0283,port_arrival,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,42.07189297770705,,,no_eligible_forecast; propagation_used_observation,2025-01-17 00:00:00+00:00
+SHP-0283,port_arrival,port_weather,False,,,,,0.0,42.07189297770705,,,unsupported_not_consumed_by_propagation,
+SHP-0283,port_arrival,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,42.07189297770705,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-17 16:00:00+00:00
+SHP-0283,port_arrival,inland_traffic,False,,,inland_a,,0.5,42.07189297770705,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-18 10:00:00+00:00
+SHP-0283,customs_cleared,port_congestion,False,,,,,0.5,18.3603373726961,,,unsupported_not_consumed_by_propagation,
+SHP-0283,customs_cleared,port_weather,False,,,,,0.0,18.3603373726961,,,unsupported_not_consumed_by_propagation,
+SHP-0283,customs_cleared,customs_workload,False,,,,,0.5,18.3603373726961,,,unsupported_not_consumed_by_propagation,
+SHP-0283,customs_cleared,inland_traffic,True,2025-01-17 17:24:14.417933+00:00,2025-01-18 11:24:14.417933+00:00,inland_a,0.5800749717102449,0.5,18.3603373726961,18.0,0.360337372696101,,2025-01-18 11:24:14.417933+00:00
+SHP-0289,departure,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,133.44166666666666,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-28 00:00:00+00:00
+SHP-0289,departure,port_weather,False,,,,,0.0,133.44166666666666,,,unsupported_not_consumed_by_propagation,
+SHP-0289,departure,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,133.44166666666666,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-28 16:00:00+00:00
+SHP-0289,departure,inland_traffic,False,,,inland_a,,0.5,133.44166666666666,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-29 10:00:00+00:00
+SHP-0289,port_arrival,port_congestion,False,,,Nhava Sheva (synthetic profile),,0.5,43.25786789794819,,,no_eligible_forecast; propagation_used_observation,2025-01-28 00:00:00+00:00
+SHP-0289,port_arrival,port_weather,False,,,,,0.0,43.25786789794819,,,unsupported_not_consumed_by_propagation,
+SHP-0289,port_arrival,customs_workload,False,,,Nhava Sheva (synthetic profile),,0.5,43.25786789794819,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-28 16:00:00+00:00
+SHP-0289,port_arrival,inland_traffic,False,,,inland_a,,0.5,43.25786789794819,,,no_eligible_forecast; propagation_used_route_baseline,2025-01-29 10:00:00+00:00
+SHP-0289,customs_cleared,port_congestion,False,,,,,0.5,18.013523598358393,,,unsupported_not_consumed_by_propagation,
+SHP-0289,customs_cleared,port_weather,False,,,,,0.0,18.013523598358393,,,unsupported_not_consumed_by_propagation,
+SHP-0289,customs_cleared,customs_workload,False,,,,,0.5,18.013523598358393,,,unsupported_not_consumed_by_propagation,
+SHP-0289,customs_cleared,inland_traffic,True,2025-01-28 17:30:29.156010+00:00,2025-01-29 11:30:29.156010+00:00,inland_a,0.5030052440796428,0.5,18.013523598358393,18.0,0.01352359835839323,,2025-01-29 11:30:29.156010+00:00
+SHP-0300,departure,port_congestion,False,,,Synthetic Port C,,0.5,149.325,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-12 12:00:00+00:00
+SHP-0300,departure,port_weather,False,,,,,0.0,149.325,,,unsupported_not_consumed_by_propagation,
+SHP-0300,departure,customs_workload,False,,,Synthetic Port C,,0.5,149.325,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-13 02:00:00+00:00
+SHP-0300,departure,inland_traffic,False,,,inland_c,,0.5,149.325,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-14 04:00:00+00:00
+SHP-0300,port_arrival,port_congestion,False,,,Synthetic Port C,,0.5,108.17592883805555,,,no_eligible_forecast; propagation_used_observation,2025-02-14 00:00:00+00:00
+SHP-0300,port_arrival,port_weather,False,,,,,0.0,108.17592883805555,,,unsupported_not_consumed_by_propagation,
+SHP-0300,port_arrival,customs_workload,False,,,Synthetic Port C,,0.5,108.17592883805555,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-14 19:00:00+00:00
+SHP-0300,port_arrival,inland_traffic,False,,,inland_c,,0.5,108.17592883805555,,,no_eligible_forecast; propagation_used_route_baseline,2025-02-15 21:00:00+00:00
+SHP-0300,customs_cleared,port_congestion,False,,,,,0.5,26.48353341990053,,,unsupported_not_consumed_by_propagation,
+SHP-0300,customs_cleared,port_weather,False,,,,,0.0,26.48353341990053,,,unsupported_not_consumed_by_propagation,
+SHP-0300,customs_cleared,customs_workload,False,,,,,0.5,26.48353341990053,,,unsupported_not_consumed_by_propagation,
+SHP-0300,customs_cleared,inland_traffic,True,2025-02-18 03:56:46.675221+00:00,2025-02-19 05:56:46.675221+00:00,inland_c,0.574389756907774,0.5,26.48353341990053,26.0,0.48353341990053167,,2025-02-19 05:56:46.675221+00:00

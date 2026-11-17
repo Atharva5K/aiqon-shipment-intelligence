@@ -1,0 +1,62 @@
+project:
+  name: aiqon-shipment-intelligence
+  timezone: UTC
+data:
+  n_shipments: 300
+  random_seed: 42
+  checkpoint_names:
+    - departure
+    - port_arrival
+    - customs_cleared
+prediction:
+  significant_delay_threshold_hours: 12
+  conformal_coverage: 0.90
+evaluation:
+  n_splits: 5
+  n_repeats: 3
+  bootstrap_samples: 1000
+  primary_metric: mae
+  phase3:
+    fit_fraction: 0.70
+    calibration_fraction: 0.15
+    test_fraction: 0.15
+    split_seed: 42
+    model:
+      n_estimators: 150
+      learning_rate: 0.05
+      max_depth: 2
+      min_samples_leaf: 8
+      random_seed: 42
+    counterfactual_timestamp_tolerance_seconds: 0.000001
+    minimum_scale_hours: 1.0
+    probability_threshold: 0.50
+    random_mask_probability: 0.10
+    local_explanation_count: 3
+    stress_transit_delay_hours: 36.0
+    stress_peak_congestion: 0.95
+    stress_customs_processing_multiplier: 2.0
+    stress_gate_cutoff_hour_utc: 8
+    stress_reduced_berth_capacity: 1
+    stress_shipment_count: 30
+    stress_weekend_start_at_utc: 2025-01-03T00:00:00Z
+    stress_weekend_scheduled_transit_hours: 36.0
+    stress_weekend_transit_perturbation_hours: 0.1
+    stress_weekend_injected_transit_delay_hours: 18.0
+    missingness_scenarios:
+      missing_intermediate_timestamp: [actual_transit_hours]
+      missing_port_observation: [observed_port_congestion]
+      partial_customs_information: [actual_customs_hours, observed_customs_workload]
+      multiple_missing_inputs: [actual_transit_hours, observed_port_congestion, forecast_customs_workload, observed_inland_traffic]
+    attribution_reference_values:
+      port_congestion: 0.50
+      port_weather: 0.0
+      customs_workload: 0.50
+      inland_traffic: 0.50
+    stress_seed_base: 4200
+routes:
+  config_path: configs/routes.yaml
+world:
+  start_at_utc: 2025-01-01T00:00:00Z
+  departure_window_days: 45
+  transit_perturbation_hours: 8
+  berth_service_base_hours: 4

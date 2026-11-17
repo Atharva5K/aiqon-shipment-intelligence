@@ -1,0 +1,301 @@
+{
+  "status": "preliminary validation; not a final generalization estimate",
+  "seed": 42,
+  "training_shipments": 240,
+  "validation_shipments": 60,
+  "training_snapshots": 720,
+  "validation_snapshots": 180,
+  "feature_schema_version": "phase2.features.v2",
+  "feature_names": [
+    "route_id",
+    "shipment_type",
+    "checkpoint_type",
+    "origin_condition",
+    "observed_gate_state",
+    "volume",
+    "scheduled_delivery_slack_hours",
+    "scheduled_transit_hours",
+    "scheduled_customs_hours",
+    "scheduled_inland_hours",
+    "route_berth_capacity",
+    "route_congestion_baseline",
+    "route_congestion_volatility",
+    "elapsed_hours",
+    "accumulated_schedule_deviation_hours",
+    "actual_transit_hours",
+    "observed_queue_length",
+    "berth_capacity_available",
+    "actual_customs_hours",
+    "observed_truck_availability",
+    "observed_origin_congestion",
+    "observed_origin_weather",
+    "observed_port_congestion",
+    "observed_port_weather",
+    "observed_queue_state",
+    "observed_customs_workload",
+    "observed_inland_traffic",
+    "forecast_transit_congestion",
+    "forecast_port_congestion",
+    "forecast_port_weather",
+    "forecast_customs_workload",
+    "forecast_inland_traffic",
+    "forecast_lead_hours",
+    "forecast_issue_age_hours",
+    "forecast_uncertainty",
+    "arrival_hour_utc",
+    "arrival_congestion_interaction",
+    "transit_deviation_congestion_interaction",
+    "expected_customs_open",
+    "expected_customs_completion_hour",
+    "customs_gate_cutoff_slack_hours",
+    "estimated_customs_start_hour",
+    "estimated_customs_wait_hours",
+    "route_id__missing",
+    "shipment_type__missing",
+    "checkpoint_type__missing",
+    "origin_condition__missing",
+    "observed_gate_state__missing",
+    "volume__missing",
+    "scheduled_delivery_slack_hours__missing",
+    "scheduled_transit_hours__missing",
+    "scheduled_customs_hours__missing",
+    "scheduled_inland_hours__missing",
+    "route_berth_capacity__missing",
+    "route_congestion_baseline__missing",
+    "route_congestion_volatility__missing",
+    "elapsed_hours__missing",
+    "accumulated_schedule_deviation_hours__missing",
+    "actual_transit_hours__missing",
+    "observed_queue_length__missing",
+    "berth_capacity_available__missing",
+    "actual_customs_hours__missing",
+    "observed_truck_availability__missing",
+    "observed_origin_congestion__missing",
+    "observed_origin_weather__missing",
+    "observed_port_congestion__missing",
+    "observed_port_weather__missing",
+    "observed_queue_state__missing",
+    "observed_customs_workload__missing",
+    "observed_inland_traffic__missing",
+    "forecast_transit_congestion__missing",
+    "forecast_port_congestion__missing",
+    "forecast_port_weather__missing",
+    "forecast_customs_workload__missing",
+    "forecast_inland_traffic__missing",
+    "forecast_lead_hours__missing",
+    "forecast_issue_age_hours__missing",
+    "forecast_uncertainty__missing",
+    "arrival_hour_utc__missing",
+    "arrival_congestion_interaction__missing",
+    "transit_deviation_congestion_interaction__missing",
+    "expected_customs_open__missing",
+    "expected_customs_completion_hour__missing",
+    "customs_gate_cutoff_slack_hours__missing",
+    "estimated_customs_start_hour__missing",
+    "estimated_customs_wait_hours__missing"
+  ],
+  "threshold_hours": 12.0,
+  "class_balance_by_checkpoint": {
+    "departure": {
+      "n": 60,
+      "significant": 47,
+      "not_significant": 13
+    },
+    "port_arrival": {
+      "n": 60,
+      "significant": 47,
+      "not_significant": 13
+    },
+    "customs_cleared": {
+      "n": 60,
+      "significant": 47,
+      "not_significant": 13
+    }
+  },
+  "metrics_by_variant": {
+    "scheduled_eta": {
+      "departure": {
+        "n": 60,
+        "mae_hours": 50.29392474279166,
+        "rmse_hours": 68.98661026613524
+      },
+      "port_arrival": {
+        "n": 60,
+        "mae_hours": 50.29392474279167,
+        "rmse_hours": 68.98661026613524
+      },
+      "customs_cleared": {
+        "n": 60,
+        "mae_hours": 26.913313052300925,
+        "rmse_hours": 30.93839454407186
+      }
+    },
+    "carry_forward": {
+      "departure": {
+        "n": 60,
+        "mae_hours": 50.29392474279166,
+        "rmse_hours": 68.98661026613524
+      },
+      "port_arrival": {
+        "n": 60,
+        "mae_hours": 49.893494204087965,
+        "rmse_hours": 68.44229819175148
+      },
+      "customs_cleared": {
+        "n": 60,
+        "mae_hours": 22.741727112532413,
+        "rmse_hours": 36.67701777761155
+      }
+    },
+    "propagation_only": {
+      "departure": {
+        "n": 60,
+        "mae_hours": 34.76307258030092,
+        "rmse_hours": 55.36156647016645
+      },
+      "port_arrival": {
+        "n": 60,
+        "mae_hours": 25.654138525882455,
+        "rmse_hours": 39.13094126584569
+      },
+      "customs_cleared": {
+        "n": 60,
+        "mae_hours": 11.598388913867831,
+        "rmse_hours": 15.076699063531686
+      }
+    },
+    "ml_only": {
+      "departure": {
+        "n": 60,
+        "mae_hours": 20.36691301723295,
+        "rmse_hours": 29.174577685438763
+      },
+      "port_arrival": {
+        "n": 60,
+        "mae_hours": 17.74086931186857,
+        "rmse_hours": 23.497257805765738
+      },
+      "customs_cleared": {
+        "n": 60,
+        "mae_hours": 2.504418367281842,
+        "rmse_hours": 3.173825016956109
+      }
+    },
+    "hybrid": {
+      "departure": {
+        "n": 60,
+        "mae_hours": 20.742724947500314,
+        "rmse_hours": 30.84406956783952
+      },
+      "port_arrival": {
+        "n": 60,
+        "mae_hours": 15.139195463005734,
+        "rmse_hours": 20.42083850200493
+      },
+      "customs_cleared": {
+        "n": 60,
+        "mae_hours": 6.952820178629227,
+        "rmse_hours": 8.50722484292007
+      }
+    }
+  },
+  "negative_ml_raw_count": 0,
+  "negative_residual_raw_count": 24,
+  "provisional_probability": true,
+  "classification_probability_status": "uncalibrated",
+  "classification_threshold": 0.5,
+  "classification_metrics_by_checkpoint": {
+    "departure": {
+      "status": "preliminary, uncalibrated",
+      "probability_status": "uncalibrated",
+      "threshold": 0.5,
+      "roc_auc": 0.8117839607201309,
+      "roc_auc_unavailable_reason": null,
+      "pr_auc_average_precision": 0.9472747969437403,
+      "pr_auc_unavailable_reason": null,
+      "brier_score": 0.16755642217253072,
+      "log_loss": 0.5400200695912231,
+      "confusion_matrix_labels_0_then_1": [
+        [
+          1,
+          12
+        ],
+        [
+          0,
+          47
+        ]
+      ],
+      "precision": 0.7966101694915254,
+      "recall": 1.0,
+      "f1": 0.8867924528301887,
+      "positive_class_count": 47,
+      "negative_class_count": 13,
+      "validation_shipment_count": 60
+    },
+    "port_arrival": {
+      "status": "preliminary, uncalibrated",
+      "probability_status": "uncalibrated",
+      "threshold": 0.5,
+      "roc_auc": 0.9214402618657939,
+      "roc_auc_unavailable_reason": null,
+      "pr_auc_average_precision": 0.97474230882973,
+      "pr_auc_unavailable_reason": null,
+      "brier_score": 0.11096865740125474,
+      "log_loss": 0.35444454131586467,
+      "confusion_matrix_labels_0_then_1": [
+        [
+          3,
+          10
+        ],
+        [
+          0,
+          47
+        ]
+      ],
+      "precision": 0.8245614035087719,
+      "recall": 1.0,
+      "f1": 0.9038461538461539,
+      "positive_class_count": 47,
+      "negative_class_count": 13,
+      "validation_shipment_count": 60
+    },
+    "customs_cleared": {
+      "status": "preliminary, uncalibrated",
+      "probability_status": "uncalibrated",
+      "threshold": 0.5,
+      "roc_auc": 0.9975450081833062,
+      "roc_auc_unavailable_reason": null,
+      "pr_auc_average_precision": 0.99910404406217,
+      "pr_auc_unavailable_reason": null,
+      "brier_score": 0.03628105129822679,
+      "log_loss": 0.1393350019923979,
+      "confusion_matrix_labels_0_then_1": [
+        [
+          10,
+          3
+        ],
+        [
+          0,
+          47
+        ]
+      ],
+      "precision": 0.94,
+      "recall": 1.0,
+      "f1": 0.9690721649484536,
+      "positive_class_count": 47,
+      "negative_class_count": 13,
+      "validation_shipment_count": 60
+    }
+  },
+  "artifact": "artifacts/models/phase2_bundle.joblib",
+  "training_timestamp_utc": "2026-11-17T10:29:50.286751+00:00",
+  "best_variant_by_checkpoint": {
+    "departure": "ml_only",
+    "port_arrival": "hybrid",
+    "customs_cleared": "ml_only"
+  },
+  "dataset_fingerprint_sha256": "21aa0ac617dac7e46bd273ba116109fc3f7fab7580a33a988460e744f574d9cd",
+  "python_version": "3.13.1",
+  "sklearn_version": "1.6.1",
+  "joblib_version": "1.4.2"
+}

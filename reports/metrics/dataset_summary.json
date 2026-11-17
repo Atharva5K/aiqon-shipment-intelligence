@@ -1,0 +1,193 @@
+{
+  "berth_service_multiplier_distribution": {
+    "count": 300,
+    "max": 1.1461336541557374,
+    "mean": 0.9983876286544002,
+    "min": 0.851080056383024,
+    "p50": 1.0018213329562542,
+    "p90": 1.116575900835321
+  },
+  "configuration": {
+    "berth_service_multiplier_distribution": {
+      "base_service_hours": 4.0,
+      "distribution": "Uniform",
+      "lower": 0.85,
+      "upper": 1.15
+    },
+    "departure_window_days": 45,
+    "environment_time_index": "Hourly UTC buckets; event conditions use the hour containing actual event time.",
+    "gate_window_semantics": "Freight ready by the configured daily cutoff dispatches immediately; freight ready after cutoff waits until the next day's cutoff.",
+    "master_seed": 42,
+    "random_streams": "SHA-256-derived per-shipment and per-route/location PCG64 streams; no global RNG",
+    "route_config_path": "configs/routes.yaml",
+    "shipment_count_configured": 300,
+    "significant_delay_threshold_hours": 12.0,
+    "transit_perturbation_distribution": {
+      "distribution": "Uniform",
+      "lower_hours": -8.0,
+      "upper_hours": 8.0
+    },
+    "world_start_at_utc": "2025-01-01T00:00:00+00:00"
+  },
+  "controlled_propagation_examples": {
+    "busy_window": {
+      "amplification_factor": 12.0,
+      "baseline_berth_start_at": "2025-01-01T12:00:00+00:00",
+      "baseline_delivery_at": "2025-01-03T04:00:00+00:00",
+      "common_service_duration_hours": 4.0,
+      "final_delivery_change_hours": 24.0,
+      "injected_transit_delay_hours": 2.0,
+      "perturbed_berth_start_at": "2025-01-02T12:00:00+00:00",
+      "perturbed_delivery_at": "2025-01-04T04:00:00+00:00",
+      "route_id": "synthetic_corridor_c",
+      "scenario": "busy_queue_with_slot_crossing",
+      "target_baseline_arrival_at": "2025-01-01T11:00:00+00:00"
+    },
+    "quiet_window": {
+      "amplification_factor": 0.0,
+      "baseline_berth_start_at": "2025-01-01T12:00:00+00:00",
+      "baseline_delivery_at": "2025-01-03T04:00:00+00:00",
+      "common_service_duration_hours": 4.0,
+      "final_delivery_change_hours": 0.0,
+      "injected_transit_delay_hours": 1.0,
+      "perturbed_berth_start_at": "2025-01-01T12:00:00+00:00",
+      "perturbed_delivery_at": "2025-01-03T04:00:00+00:00",
+      "route_id": "synthetic_corridor_c",
+      "scenario": "quiet_slot_absorption",
+      "target_baseline_arrival_at": "2025-01-01T01:00:00+00:00"
+    }
+  },
+  "counts": {
+    "actual_events": 2400,
+    "checkpoint_snapshots": 900,
+    "environment_observations": 23013,
+    "forecast_records": 3000,
+    "shipments_per_route": {
+      "mundra_inland_b": 100,
+      "nhava_sheva_inland_a": 100,
+      "synthetic_corridor_c": 100
+    },
+    "significant_delay_prevalence": 0.88,
+    "significant_delay_shipments": 264,
+    "unique_routes": 3,
+    "unique_shipments": 300
+  },
+  "delay_class_counts_hours": {
+    "early_or_on_time_le_0": 3,
+    "moderate_over_12_to_48": 143,
+    "normal_0_to_12": 33,
+    "severe_over_48": 121
+  },
+  "forecast_error_by_lead_bucket_hours": {
+    "0-24": {
+      "count": 1100,
+      "mae": 0.09135146512072938,
+      "mean_uncertainty": 0.05795454545454545
+    },
+    "24-72": {
+      "count": 400,
+      "mae": 0.13568201393200044,
+      "mean_uncertainty": 0.11562500000000002
+    },
+    "72+": {
+      "count": 1500,
+      "mae": 0.24324207758227606,
+      "mean_uncertainty": 0.2983333333333334
+    }
+  },
+  "forecast_uncertainty_increases_with_lead": true,
+  "mechanism_affected_journeys": {
+    "berth_slot_wait_affected": 300,
+    "customs_operating_closure": 194,
+    "inland_gate_cutoff_miss": 158,
+    "vessel_bunching_or_berth_queue": 121,
+    "weekend_customs_closure": 73
+  },
+  "output_files": {
+    "environment_actuals": "data\\raw\\environment_actuals.parquet",
+    "events": "data\\raw\\events.parquet",
+    "forecasts": "data\\raw\\forecasts.parquet",
+    "prediction_snapshots": "data\\processed\\prediction_snapshots.parquet",
+    "shipments": "data\\raw\\shipments.parquet",
+    "snapshot_targets": "data\\processed\\snapshot_targets.parquet"
+  },
+  "project": "aiqon-shipment-intelligence",
+  "stage_durations_hours": {
+    "berth_service_duration_hours": {
+      "count": 300,
+      "max": 4.58453461662295,
+      "mean": 3.993550514617601,
+      "min": 3.404320225532096,
+      "p50": 4.007285331825017,
+      "p90": 4.466303603341284
+    },
+    "customs_processing_duration_hours": {
+      "count": 300,
+      "max": 12.791602808449598,
+      "mean": 10.042658751648652,
+      "min": 7.699200419488795,
+      "p50": 9.630451737268263,
+      "p90": 12.466557255796685
+    },
+    "inland_travel_duration_hours": {
+      "count": 300,
+      "max": 29.007528717040813,
+      "mean": 23.75541942359635,
+      "min": 18.64374776193621,
+      "p50": 23.63306976445547,
+      "p90": 28.43563159610519
+    },
+    "transit_duration_hours": {
+      "count": 300,
+      "max": 115.97828962472222,
+      "mean": 95.99013168739167,
+      "min": 76.16992397972223,
+      "p50": 95.68340478583335,
+      "p90": 110.35072719641666
+    }
+  },
+  "storage_format": "parquet",
+  "synthetic_data_notice": "All route profiles and generated outcomes are synthetic assumptions, not empirical port statistics.",
+  "total_delay_hours": {
+    "count": 300,
+    "max": 207.05193769,
+    "mean": 54.80930276666945,
+    "min": -4.1526294791666665,
+    "p50": 35.85838540472222,
+    "p90": 134.2253909450279
+  },
+  "waiting_time_hours": {
+    "berth_queue_wait_hours": {
+      "count": 300,
+      "max": 144.0,
+      "mean": 25.76,
+      "min": 0.0,
+      "p50": 0.0,
+      "p90": 96.0
+    },
+    "berth_slot_wait_hours": {
+      "count": 300,
+      "max": 11.954015200555556,
+      "mean": 5.395590534830555,
+      "min": 0.029423989166666668,
+      "p50": 5.377160869027778,
+      "p90": 10.08099588722222
+    },
+    "customs_closure_wait_hours": {
+      "count": 300,
+      "max": 53.53633768111111,
+      "mean": 9.602116722077778,
+      "min": 0.0,
+      "p50": 3.972646567222222,
+      "p90": 29.884356600611227
+    },
+    "gate_wait_hours": {
+      "count": 300,
+      "max": 22.995222659166668,
+      "mean": 10.603168465858335,
+      "min": 0.0,
+      "p50": 17.378901066111112,
+      "p90": 22.369548262777776
+    }
+  }
+}

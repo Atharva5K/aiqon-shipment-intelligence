@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aiqon-shipment-intelligence"
+version = "0.1.0"
+description = "Synthetic shipment ETA and delay-propagation research project"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "PyYAML>=6.0",
+    "pydantic>=2.0,<3",
+    "numpy==2.1.1",
+    "pandas==2.2.3",
+    "pyarrow>=15.0",
+    "scikit-learn==1.6.1",
+    "joblib==1.4.2",
+    "shap==0.47.2",
+    "matplotlib==3.10.1",
+    "streamlit>=1.40,<2",
+    "plotly>=5.18,<7",
+]
+
+[project.optional-dependencies]
+assistant = [
+    "groq>=0.30,<2",
+    "python-dotenv>=1.0,<2",
+]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+

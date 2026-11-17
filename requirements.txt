@@ -1,0 +1,4 @@
+# The project metadata is the single source of dependency versions.
+# Full verification includes tests and the optional assistant SDK.
+# Core-only runtime installation is `python -m pip install .`.
+-e .[dev,assistant]

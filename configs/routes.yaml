@@ -1,0 +1,63 @@
+# Illustrative synthetic corridors only; values are design defaults, not
+# empirical statistics about the named locations.
+routes:
+  - route_id: nhava_sheva_inland_a
+    origin: origin_alpha
+    destination_port: Nhava Sheva (synthetic profile)
+    final_destination: inland_a
+    scheduled_transit_hours: 96
+    berth_capacity: 2
+    berth_slot_hours: [0, 12]
+    congestion:
+      baseline: 0.45
+      volatility: 0.18
+    customs:
+      operating_days: [monday, tuesday, wednesday, thursday, friday]
+      opening_hour_utc: 8
+      closing_hour_utc: 18
+      base_processing_hours: 8
+      workload_baseline: 0.50
+    inland:
+      travel_hours: 18
+      gate_cutoff_hour_utc: 16
+      traffic_baseline: 0.45
+  - route_id: mundra_inland_b
+    origin: origin_beta
+    destination_port: Mundra (synthetic profile)
+    final_destination: inland_b
+    scheduled_transit_hours: 84
+    berth_capacity: 3
+    berth_slot_hours: [0, 8, 16]
+    congestion:
+      baseline: 0.35
+      volatility: 0.15
+    customs:
+      operating_days: [monday, tuesday, wednesday, thursday, friday, saturday]
+      opening_hour_utc: 7
+      closing_hour_utc: 19
+      base_processing_hours: 7
+      workload_baseline: 0.50
+    inland:
+      travel_hours: 22
+      gate_cutoff_hour_utc: 17
+      traffic_baseline: 0.45
+  - route_id: synthetic_corridor_c
+    origin: origin_gamma
+    destination_port: Synthetic Port C
+    final_destination: inland_c
+    scheduled_transit_hours: 108
+    berth_capacity: 1
+    berth_slot_hours: [0, 12]
+    congestion:
+      baseline: 0.55
+      volatility: 0.22
+    customs:
+      operating_days: [monday, tuesday, wednesday, thursday, friday]
+      opening_hour_utc: 9
+      closing_hour_utc: 17
+      base_processing_hours: 10
+      workload_baseline: 0.50
+    inland:
+      travel_hours: 26
+      gate_cutoff_hour_utc: 15
+      traffic_baseline: 0.45
